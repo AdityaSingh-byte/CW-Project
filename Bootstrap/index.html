@@ -15,128 +15,271 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/a0e3ce42aa.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
       .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
+        display: flex;
+        flex-wrap: wrap;
+      }
 
-        .category-card {
-            margin: 10px;
-            cursor: pointer;
-            flex: 0 0 100px;
-            min-width: 100px;
-        }
+      .category-card {
+        margin: 10px;
+        cursor: pointer;
+        flex: 0 0 100px;
+        min-width: 100px;
+      }
 
-        .cat-wrpr {
-            background: #fff;
-            border: 0.5px solid #d3d3d3;
-            border-radius: 4px;
-            position: relative;
-            overflow: hidden;
-            margin: 24px;
-            padding: 24px;
-        }
+      .cat-wrpr {
+        background: #fff;
+        border: 0.5px solid #d3d3d3;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        margin: 24px;
+        padding: 24px;
+      }
 
-        .cat-wrpr h2 {
-            color: #373737;
-            font-family: Mulish, sans-serif;
-            font-weight: 700;
-            font-size: 16px;
-            margin-bottom: 8px;
-        }
+      .cat-wrpr h2 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
 
-        .category-card h1 {
-            color: #373737;
-            font-family: Mulish, sans-serif;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 1.4;
-            padding-top: 20px;
-        }
+      .category-card h1 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.4;
+        padding-top: 20px;
+      }
 
-        .category-card+.category-card {
-            margin-left: 20px;
-    }
+      .category-card + .category-card {
+        margin-left: 20px;
+      }
+      .w-122 {
+        width: 122px;
+      }
+      .h-49 {
+        height: 49px;
+      }
+
+      #nav_btn {
+        padding-top: 11px;
+        padding-bottom: -4px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border: none;
+        background-color: #f2f6ff;
+      }
+      .green {
+        color: green;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-bottom: 0px;
+      }
+      #nav {
+        gap: 30px;
+        > p {
+          cursor: pointer;
+        }
+      }
+      #nav_1 {
+        margin-right: 30px;
+      }
+      #nav_2 {
+        > svg,
+        p {
+          cursor: pointer;
+        }
+      }
     </style>
   </head>
   <body>
     <!-- Nav-bar : Aditya-start -->
+    <div class="border-bottom border-black">
+      <div class="container-fluid d-flex">
+        <img
+          class="container w-122 h-49 m-2"
+          src="./WhatsApp Image 2024-02-20 at 21.54.56_8743bdba.jpg"
+          alt=""
+        />
+        <button id="nav_btn" class="rounded-bottom-2 rounded-start-1 d-flex">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-geo-alt green"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+            />
+            <path
+              d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+            />
+          </svg>
+          <p>
+            <span class="font-size:14px">38004 </span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+            <br />
+            <span class="fw-bold fs-6 text-secondary">Ahmedabad</span>
+          </p>
+        </button>
+      </div>
+    </div>
+
+    <div class="d-none container-fluid shadow z-1 d-sm-none d-md-flex">
+      <div
+        id="nav_2"
+        class="d-flex align-items-center border-end border-1 border-black ps-3"
+        style="width: 14%"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-list"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+        <p class="d-flex align-items-center pr-2 m-2">All Categories</p>
+      </div>
+      <div id="nav" class="d-flex align-items-center g-5 ms-4 mt-3">
+        <p>Value Pack</p>
+        <p>Ready To Cook</p>
+        <p>Home Appliances</p>
+        <p>Cookware</p>
+        <p>Serveware</p>
+        <p>Cleaners</p>
+        <p>Detergent & Fabric Care</p>
+      </div>
+    </div>
+
     <!-- Nav-bar : Aditya-end -->
     <!-- 1st Carousal : Anurag-start -->
     <!-- 1st Carousal : Anurag-end -->
     <!-- Popular Categories : Aditya-start -->
     <div class="container-fluid">
       <div class="cat-wrpr">
-          <h2>Popular Categories</h2>
-          <div class="d-flex">
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-tea1.png" alt="Tea"
-                          style="width: 100%" />
-                      <h1>Tea</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-coffee.png"
-                          alt="Coffee" style="width: 100%" />
-                      <h1>Coffee</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-healthdrinks.png"
-                          alt="Health Drinks" style="width: 100%" />
-                      <h1>Health Drinks</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/1may23-popularcat-dairy.png" alt="Dairy"
-                          style="width: 100%" />
-                      <h1>Dairy</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-soaps.png"
-                          alt="Bath Soaps" style="width: 100%" />
-                      <h1>Bath Soaps</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/16jan23-popularcat-poojaneeds.png"
-                          alt="Pooja Needs" style="width: 100%" />
-                      <h1>Pooja Needs</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-toothpaste.png"
-                          alt="Toothpastes" style="width: 100%" />
-                      <h1>Toothpastes</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-shampoos.png"
-                          alt="Hair" style="width: 100%" />
-                      <h1>Hair</h1>
-                  </div>
-              </div>
-              <div class="category-card">
-                  <div class="text-center">
-                      <img src="https://cdn.dmart.in/images/rwd/banners/cards/16jan23-popularcat-mopswipers.png"
-                          alt="Hygiene" style="width: 100%" />
-                      <h1>Cleaning Tools</h1>
-                  </div>
-              </div>
+        <h2>Popular Categories</h2>
+        <div class="d-flex">
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-tea1.png"
+                alt="Tea"
+                style="width: 100%"
+              />
+              <h1>Tea</h1>
+            </div>
           </div>
-        </div>
-
-
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-coffee.png"
+                alt="Coffee"
+                style="width: 100%"
+              />
+              <h1>Coffee</h1>
+            </div>
+          </div>
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-healthdrinks.png"
+                alt="Health Drinks"
+                style="width: 100%"
+              />
+              <h1>Health Drinks</h1>
+            </div>
+          </div>
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/1may23-popularcat-dairy.png"
+                alt="Dairy"
+                style="width: 100%"
+              />
+              <h1>Dairy</h1>
+            </div>
+          </div>
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-soaps.png"
+                alt="Bath Soaps"
+                style="width: 100%"
+              />
+              <h1>Bath Soaps</h1>
+            </div>
+          </div>
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/16jan23-popularcat-poojaneeds.png"
+                alt="Pooja Needs"
+                style="width: 100%"
+              />
+              <h1>Pooja Needs</h1>
+            </div>
+          </div>
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-toothpaste.png"
+                alt="Toothpastes"
+                style="width: 100%"
+              />
+              <h1>Toothpastes</h1>
+            </div>
+          </div>
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-shampoos.png"
+                alt="Hair"
+                style="width: 100%"
+              />
+              <h1>Hair</h1>
+            </div>
+          </div>
+          <div class="category-card">
+            <div class="text-center">
+              <img
+                src="https://cdn.dmart.in/images/rwd/banners/cards/16jan23-popularcat-mopswipers.png"
+                alt="Hygiene"
+                style="width: 100%"
+              />
+              <h1>Cleaning Tools</h1>
+            </div>
+          </div>
+        </div>
+                
+      </div>
+    </div>
 
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
