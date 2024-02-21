@@ -1,13 +1,13 @@
-@charset "UTF-8";
-@media (min-width: 1440px) {
+@media (min-width: 1320px) {
   .container {
     width: 1320px;
-    margin:  auto;
+    margin: auto;
   }
 }
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 header > div:nth-of-type(1) {
   display: flex;
@@ -28,4 +28,41 @@ header > div:nth-of-type(1) > p {
   letter-spacing: 0em;
   text-align: left;
   color: #757575;
+}
+header > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+}
+header > div:nth-of-type(2) > a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #05073C;
+}
+header > div:nth-of-type(2) > a:nth-of-type(1) {
+  margin: 11px 42.8px 11.13px 20px;
+}
+header > div:nth-of-type(2) > a:nth-of-type(2) {
+  margin: 11px 42.8px 11.13px 20px;
+}
+header > div:nth-of-type(2) > a:nth-of-type(3) {
+  margin: 11px 42.8px 11.13px 20px;
+}
+header > div:nth-of-type(2) > button {
+  padding: 12px 21px 12.08px 21px;
+  border-radius: 40px;
+  margin-left: 29.8px;
+  border: none;
+  background-color: #EB662B;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 28px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
