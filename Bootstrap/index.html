@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
@@ -17,6 +24,7 @@
     ></script>
   </head>
   <body>
+    <!-- start carousel -->
     <div>
       <div
         id="carouselExampleSlidesOnly1"
@@ -76,6 +84,7 @@
         </div>
       </div>
     </div>
+    <!-- end carousel -->
     <div>
       <div
         id="carouselExampleSlidesOnly"
@@ -107,44 +116,59 @@
         </div>
       </div>
     </div>
-
-    <footer class="footer bg-dark text-white">
+    <!-- footer part -->
+    <footer class="footer bg-light text-black">
       <div class="container">
         <!-- Footer for larger screens (Laptops) -->
         <div class="d-none d-lg-block">
           <div class="row">
             <div class="col-lg-4">
               <h5>Download DMart Ready Mobile App Now!!</h5>
+
               <p>
-                <a href="#" class="btn btn-primary">Android Google Play</a>
-                <a href="#" class="btn btn-primary"
-                  >Download on the App Store</a
-                >
+                <a href="#" class="btn btn-primary">Google Play</a>
+                <a href="#" class="btn btn-primary"> App Store</a>
+              </p>
+              <p>
+                <i
+                  class="fa-brands fa-cc-visa fa-lg"
+                  style="color: #74c0fc"
+                ></i>
+                <i
+                  class="fa-brands fa-cc-mastercard fa-lg"
+                  style="color: #c8460e"
+                ></i>
+                <i
+                  class="fa-brands fa-cc-amex fa-lg"
+                  style="color: #435460"
+                ></i>
+                <i
+                  class="fa-brands fa-cc-discover fa-lg"
+                  style="color: #171d21"
+                ></i>
+                <i
+                  class="fa-brands fa-cc-diners-club fa-lg"
+                  style="color: #f00f3c"
+                ></i>
               </p>
             </div>
             <div class="col-lg-4">
-              <h5>FAQs</h5>
               <ul class="list-unstyled">
+                <a href="#">FAQs</a>
                 <li><a href="#">Privacy Policy</a></li>
                 <li>
                   <a href="#">Pricing, Delivery, Return and Refund Policy</a>
                 </li>
                 <li><a href="#">Terms and Conditions</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <ul class="list-unstyled">
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Pickup Points</a></li>
                 <li><a href="#">Disclaimer</a></li>
               </ul>
-            </div>
-            <div class="col-lg-4">
-              <h5>Payment Methods</h5>
-              <p>
-                <i class="fab fa-cc-visa"></i>
-                <i class="fab fa-cc-mastercard"></i>
-                <i class="fab fa-cc-amex"></i>
-                <i class="fab fa-cc-discover"></i>
-                <i class="fab fa-cc-diners-club"></i>
-              </p>
             </div>
           </div>
         </div>
@@ -152,14 +176,6 @@
         <div class="d-lg-none">
           <div class="row">
             <div class="col-md-6">
-              <h5>Download DMart Ready Mobile App Now!!</h5>
-              <p>
-                <a href="#" class="btn btn-primary">Android</a>
-                <a href="#" class="btn btn-primary">iOS</a>
-              </p>
-            </div>
-            <div class="col-md-6">
-              <h5>Quick Links</h5>
               <ul class="list-unstyled">
                 <li><a href="#">FAQs</a></li>
                 <li><a href="#">Privacy Policy</a></li>
@@ -173,8 +189,16 @@
                 <li><a href="#">Disclaimer</a></li>
               </ul>
             </div>
+            <div class="col-md-6 text-center">
+              <h5>Download DMart Ready Mobile App Now!!</h5>
+              <p>
+                <a href="#" class="btn btn-primary">Android</a>
+                <a href="#" class="btn btn-primary">iOS</a>
+              </p>
+            </div>
           </div>
         </div>
+        <hr />
         <div class="row">
           <div class="col">
             <p class="text-center small">
