@@ -17,7 +17,6 @@
     ></script>
 
     <link rel="stylesheet" href="./index.js" />
-
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -27,13 +26,30 @@
       src="https://kit.fontawesome.com/a0e3ce42aa.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="./style.css" />
 
     <style>
       body {
         background-color: #f0f2f6;
       }
-      #ritwik_div {
+  
+
+
+    body {
+      background-color: #f0f2f6;
+    }
+    #ritwik_div {
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      height: 60vh;
+      background-color: white;
+      margin: 1%;
+    }
+    @media screen and (min-width: 576px) {
+      .ritwik_carousel-inner {
+
         display: flex;
         flex-direction: column;
         width: 95%;
@@ -83,18 +99,21 @@
         margin: 24px;
         padding: 24px;
       }
+ body {
+        background-color: #f0f2f6;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
 
-      .category-card_ft {
+      .category-card {
         margin: 10px;
         cursor: pointer;
         flex: 0 0 100px;
         min-width: 100px;
       }
-      body {
-        background-color: #f0f2f6;
-      }
-
-      .promo-banner {
+      .cat-wrpr {
         background: #fff;
         border: 0.5px solid #d3d3d3;
         border-radius: 4px;
@@ -103,6 +122,243 @@
         margin: 24px;
         padding: 24px;
       }
+
+      .cat-wrpr h2 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+
+      .category-card h1 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.4;
+        padding-top: 20px;
+      }
+
+      .category-card + .category-card {
+        margin-left: 20px;
+      }
+
+      .promo-banner {
+        background: #fff;
+        border: 0.5px solid #d3d3d3;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        padding: 24px;
+        margin: 24px;
+        display: block;
+      }
+
+      .promo-banner img,.essentials-wrpr img {
+        display: block;
+        width: 100%;
+      }
+      .essentials-wrpr h2{margin-bottom: 20px;}
+      .prdct-itm {
+          border: 0.5px solid #d3d3d3;
+          background-color: #fff;
+          padding: 8px 12px;
+          border-radius: 4px;
+          position: relative;
+      }
+
+      .img-wrpr img {
+          display: block;
+          max-width: 136px;
+          margin: 0 auto;
+      }
+
+      .meal-type {
+          position: absolute;
+          width: 30px !important;
+          height: 30px;
+          right: 12px;
+          top: 9px;
+          margin: 0 !important;
+      }
+
+      .products-ttl {
+          font-family: Mulish,sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: #373737;
+          min-height: 40px;
+          text-decoration: none;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          margin: 16px 0;
+      }
+
+      .prc-info-lft-inr-itm {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .prc-info-lft {
+          display: flex;
+          justify-content: space-between;
+      }
+      .prc-info-lft-inr-1 {
+        color: rgb(135, 135, 135);
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+    .prc-info-lft-inr-itm .prc-info-lft-inr-1:first-child>div+div {text-decoration: line-through;}
+    .prc-info-lft-inr-1+.prc-info-lft-inr-1 {
+        margin-left: 16px;
+    }
+
+    .prc-info-lft-inr-1>div+div {
+        margin-top: 2px;
+    }
+
+    .prc-info-lft-inr-1.prc-info-lft-inr-2 div {
+        font-family: Mulish,sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color:  rgb(55, 55, 55);
+    }
+
+    .prc-info-lft-inr-1+.prc-info-lft-inr-1>div:first-child {
+        font-weight: normal;
+    }
+
+
+    .prc-info-lft-inr+.prc-info-lft-inr {
+        background-color: rgba(35,165,65,.1);
+        border-radius: 2px;
+        color: #25a541;
+        padding: 4px 8px;
+        font-family: Mulish,sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        border-radius: 2px;
+    }
+    .prc-info-lft-inr-2 span {
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: inherit;
+        text-align: center;
+    }
+    .taxes-txt {
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        font-style: italic;
+        color: #878787;
+        margin-top: 4px;
+    }
+    .taxes-txt {
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        font-style: italic;
+        color: #878787;
+        margin-top: 4px;
+    }
+
+    .bag-ingo {
+        padding: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 4px;
+        font-size: 12px;
+        width: 100%;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        min-height: 1.1876em !important;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    a.green-btn {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        outline: 0px;
+        border: 0px;
+        margin: 0px;
+        cursor: pointer;
+        vertical-align: middle;
+        text-decoration: none;
+        line-height: 1.75;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 16px;
+        border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: Mulish, sans-serif;
+        background-color: rgb(37, 165, 65);
+        color: rgb(255, 255, 255);
+    }
+        .saver-wrpr #essentials-carousel .owl-nav button {
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        background-color: #fff;
+        position: absolute;
+        text-align: center;
+        border: 0.1px solid #d3d3d3;
+        box-shadow: 0.5px 0.5px 2px 0 #d3d3d3;
+        outline: none;
+        width: 38px;
+        height: 61px;
+        z-index: 6;
+        color: #25a541;
+        font-size: 51px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        padding: 0!important;
+    }
+    
+     .saver-wrpr #essentials-carousel .owl-nav button+button {
+        left: auto;
+        right: 0;
+    }
+    
+    .saver-wrpr #essentials-carousel .owl-nav button span {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+      .category-card_ft {
+        margin: 10px;
+        cursor: pointer;
+        flex: 0 0 100px;
+        min-width: 100px;
+      }
+     
 
       .cat-wrpr h2 {
         color: #373737;
@@ -159,12 +415,18 @@
         p {
           cursor: pointer;
         }
+
+        padding: 24px;
+        margin: 24px;
+      }
+
       }
 
       .promo-banner img {
         display: block;
         width: 100%;
       }
+
       #search_bar {
         height: 42px;
         padding: 11px 7px 11px 7px;
@@ -197,6 +459,9 @@
         gap: 10px;
         margin-right: 30px;
       }
+
+
+
     </style>
   </head>
   <body>
@@ -329,6 +594,15 @@
         </div>
       </div>
 
+
+
+    </div>
+    <div class="d-none container-fluid shadow z-1 d-sm-none d-md-flex">
+    <div
+      class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
+      style="background-color: white"
+    >
+
       <div
         class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
         style="background-color: white"
@@ -362,15 +636,16 @@
           <p>Detergent& Fabric Care</p>
         </div>
       </div>
+
     </header>
 
+    </div>
     <!-- Nav-bar : Aditya-start -->
-
+    <!-- Nav-bar : Aditya-start -->
     <!-- Nav-bar : Aditya-end -->
     <!-- 1st Carousal : Anurag-start -->
     <!-- 1st Carousal : Anurag-end -->
     <!-- Popular Categories : Aditya-start -->
-
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
     <!-- 50% OFF Deals : Shivani-end -->
@@ -544,6 +819,7 @@
       </div>
     </div>
 
+
     <div class="container-fluid">
       <div class="cat-wrpr">
         <h2>Popular Categories</h2>
@@ -661,10 +937,7 @@
         </div>
       </div>
     </div>
-
     <!-- Popular Categories : Aditya-end -->
-    <!-- 50% OFF Deals : Shivani-start -->
-
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
     <div class="container-fluid">
@@ -674,20 +947,28 @@
         />
       </div>
     </div>
-
     <!-- 50% OFF Deals : Shivani-end -->
     <!-- Breakfast, Stationery, Home Decor : Baba-start -->
     <!-- Breakfast, Stationery, Home Decor : Baba-end -->
     <!-- Monthly Essentials : Shivani-start-->
-    <!-- Monthly Essentials : Shivani-end-->
-    <!-- Basket Must-Haves : Shivani-start -->
-
-    <div class="container-fluid">
-      <div class="promo-banner">
-        <img src="./basket-" />
+    <div class="cat-wrpr essentials-wrpr">
+      <h2>Monthly Essentials</h2>
+      <div class="row">
+        <a href="#" class="col-12 col-md-6">
+          <img src="./banner-1.jpg">
+        </a>
+        <a href="#" class="col-12 col-md-6">
+          <img src="./banner-2.jpg">
+        </a>
       </div>
     </div>
-
+    <!-- Monthly Essentials : Shivani-end-->
+    <!-- Basket Must-Haves : Shivani-start -->
+    <div class="container-fluid">
+      <div class="promo-banner">
+        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1feb24-curated-bmh-pune.jpg" />
+      </div>
+    </div>
     <!-- Basket Must-Haves : Shivani-end -->
     <!-- Week's Savers : Shivani-start  -->
     <!-- Week's Savers : Shivani-end  -->
