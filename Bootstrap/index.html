@@ -17,16 +17,104 @@
       crossorigin="anonymous"
     ></script>
 
-
+    <link rel="stylesheet" href="./index.js" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/a0e3ce42aa.js"
       crossorigin="anonymous"
     ></script>
+
+    <link rel="stylesheet" href="./style.css" />
+
     <style>
+      body {
+        background-color: #f0f2f6;
+      }
+  
+
+
+    body {
+      background-color: #f0f2f6;
+    }
+    #ritwik_div {
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      height: 60vh;
+      background-color: white;
+      margin: 1%;
+    }
+    @media screen and (min-width: 576px) {
+      .ritwik_carousel-inner {
+
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 60vh;
+        background-color: white;
+        margin: 1%;
+      }
+      @media screen and (min-width: 576px) {
+        .ritwik_carousel-inner {
+          display: flex;
+        }
+
+        .ritwik_carousel-item {
+          display: block;
+          margin-right: 0;
+          flex: 0 0 calc(100% / 5);
+        }
+      }
+
+      .ritwik_carousel-inner {
+        padding: 1%;
+      }
+
+      .ritwik_card {
+        margin: 0.5rem;
+      }
+
+      .ritwik_card > img {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+      }
+
       .container {
         display: flex;
         flex-wrap: wrap;
-      } .cat-wrpr {
+      }
+
+      .cat-wrpr {
+        background: #fff;
+        border: 0.5px solid #d3d3d3;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        margin: 24px;
+        padding: 24px;
+      }
+ body {
+        background-color: #f0f2f6;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .category-card {
+        margin: 10px;
+        cursor: pointer;
+        flex: 0 0 100px;
+        min-width: 100px;
+      }
+      .cat-wrpr {
         background: #fff;
         border: 0.5px solid #d3d3d3;
         border-radius: 4px;
@@ -36,27 +124,242 @@
         padding: 24px;
       }
 
+      .cat-wrpr h2 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+
+      .category-card h1 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.4;
+        padding-top: 20px;
+      }
+
+      .category-card + .category-card {
+        margin-left: 20px;
+      }
+
+      .promo-banner {
+        background: #fff;
+        border: 0.5px solid #d3d3d3;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        padding: 24px;
+        margin: 24px;
+        display: block;
+      }
+
+      .promo-banner img,.essentials-wrpr img {
+        display: block;
+        width: 100%;
+      }
+      .essentials-wrpr h2{margin-bottom: 20px;}
+      .prdct-itm {
+          border: 0.5px solid #d3d3d3;
+          background-color: #fff;
+          padding: 8px 12px;
+          border-radius: 4px;
+          position: relative;
+      }
+
+      .img-wrpr img {
+          display: block;
+          max-width: 136px;
+          margin: 0 auto;
+      }
+
+      .meal-type {
+          position: absolute;
+          width: 30px !important;
+          height: 30px;
+          right: 12px;
+          top: 9px;
+          margin: 0 !important;
+      }
+
+      .products-ttl {
+          font-family: Mulish,sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: #373737;
+          min-height: 40px;
+          text-decoration: none;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          margin: 16px 0;
+      }
+
+      .prc-info-lft-inr-itm {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .prc-info-lft {
+          display: flex;
+          justify-content: space-between;
+      }
+      .prc-info-lft-inr-1 {
+        color: rgb(135, 135, 135);
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+    .prc-info-lft-inr-itm .prc-info-lft-inr-1:first-child>div+div {text-decoration: line-through;}
+    .prc-info-lft-inr-1+.prc-info-lft-inr-1 {
+        margin-left: 16px;
+    }
+
+    .prc-info-lft-inr-1>div+div {
+        margin-top: 2px;
+    }
+
+    .prc-info-lft-inr-1.prc-info-lft-inr-2 div {
+        font-family: Mulish,sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color:  rgb(55, 55, 55);
+    }
+
+    .prc-info-lft-inr-1+.prc-info-lft-inr-1>div:first-child {
+        font-weight: normal;
+    }
+
+
+    .prc-info-lft-inr+.prc-info-lft-inr {
+        background-color: rgba(35,165,65,.1);
+        border-radius: 2px;
+        color: #25a541;
+        padding: 4px 8px;
+        font-family: Mulish,sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        border-radius: 2px;
+    }
+    .prc-info-lft-inr-2 span {
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: inherit;
+        text-align: center;
+    }
+    .taxes-txt {
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        font-style: italic;
+        color: #878787;
+        margin-top: 4px;
+    }
+    .taxes-txt {
+        font-family: Mulish,sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        font-style: italic;
+        color: #878787;
+        margin-top: 4px;
+    }
+
+    .bag-ingo {
+        padding: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 4px;
+        font-size: 12px;
+        width: 100%;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        min-height: 1.1876em !important;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    a.green-btn {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        outline: 0px;
+        border: 0px;
+        margin: 0px;
+        cursor: pointer;
+        vertical-align: middle;
+        text-decoration: none;
+        line-height: 1.75;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 16px;
+        border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: Mulish, sans-serif;
+        background-color: rgb(37, 165, 65);
+        color: rgb(255, 255, 255);
+    }
+        .saver-wrpr #essentials-carousel .owl-nav button {
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        background-color: #fff;
+        position: absolute;
+        text-align: center;
+        border: 0.1px solid #d3d3d3;
+        box-shadow: 0.5px 0.5px 2px 0 #d3d3d3;
+        outline: none;
+        width: 38px;
+        height: 61px;
+        z-index: 6;
+        color: #25a541;
+        font-size: 51px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        padding: 0!important;
+    }
+    
+     .saver-wrpr #essentials-carousel .owl-nav button+button {
+        left: auto;
+        right: 0;
+    }
+    
+    .saver-wrpr #essentials-carousel .owl-nav button span {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
       .category-card_ft {
         margin: 10px;
         cursor: pointer;
         flex: 0 0 100px;
         min-width: 100px;
       }
-      body {
-        background-color: #f0f2f6;
-      }
-    
-      .promo-banner {
-
-        background: #fff;
-        border: 0.5px solid #d3d3d3;
-        border-radius: 4px;
-        position: relative;
-        overflow: hidden;
-
-        margin: 24px;
-        padding: 24px;
-      }
+     
 
       .cat-wrpr h2 {
         color: #373737;
@@ -117,75 +420,200 @@
         padding: 24px;
         margin: 24px;
       }
-    
+
+      }
+
       .promo-banner img {
         display: block;
         width: 100%;
-
       }
+
+      #search_bar {
+        height: 42px;
+        padding: 11px 7px 11px 7px;
+        margin-right: 30px;
+      }
+      .form-control {
+        background-color: rgba(250, 244, 244, 0.801);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+          rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+      #search_btn {
+        background-color: green;
+        color: white;
+      }
+      #profile {
+        padding: 7px 0px 0px 15px;
+        width: 175px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-right: 30px;
+      }
+      #cart {
+        padding: 7px 0px 0px 15px;
+        width: 175px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-right: 30px;
+      }
+
+
+
     </style>
   </head>
   <body>
     <!-- Nav-bar : Aditya-start -->
-
-    <div class="border-bottom border-black">
-      <div class="container-fluid d-flex">
-        <img
-          class="container w-122 h-49 m-2"
-          src="./WhatsApp Image 2024-02-20 at 21.54.56_8743bdba.jpg"
-          alt=""
-        />
-        <button id="nav_btn" class="rounded-bottom-2 rounded-start-1 d-flex">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-geo-alt green"
-            viewBox="0 0 16 16"
+    <header class="position-sticky top-0 z-1">
+      <div
+        class="border-bottom border-black container-fluid"
+        style="background-color: white"
+      >
+        <div class="container-fluid d-flex">
+          <img
+            class="container w-122 h-49 m-2"
+            src="./WhatsApp Image 2024-02-20 at 21.54.56_8743bdba.jpg"
+            alt=""
+          />
+          <button
+            id="nav_btn"
+            class="rounded-bottom-2 rounded-start-1 d-flex border-0"
           >
-            <path
-              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-            />
-            <path
-              d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-            />
-          </svg>
-          <p>
-            <span class="font-size:14px">38004 </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="25"
+              height="25"
               fill="currentColor"
-              class="bi bi-chevron-down"
+              class="bi bi-geo-alt green"
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
-                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+              />
+              <path
+                d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
               />
             </svg>
-            <br />
-            <span class="fw-bold fs-6 text-secondary">Ahmedabad</span>
-          </p>
-        </button>
+            <p>
+              <span class="font-size:14px">38004 </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+              <br />
+              <span class="fw-bold fs-6 text-secondary">Ahmedabad</span>
+            </p>
+          </button>
+          <div class="pt-1 ps-2 me-4">
+            <p>
+              Earliest <span style="color: green">Home Delivery</span> available
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-clock"
+                viewBox="0 0 16 16"
+                style="color: orange"
+              >
+                <path
+                  d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+                />
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+                />
+              </svg>
+              Today 02:00 PM - 04:00 PM
+            </p>
+          </div>
+          <div id="search_bar">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Apko kya chiyeh"
+                aria-label="Search"
+                style="width: 320px"
+              />
+              <button
+                class="btn btn-outline-success"
+                id="search_btn"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+          <div class="d-flex">
+            <div id="profile" class="d-flex container-fluid">
+              <svg
+                style="color: green; margin-bottom: 15px"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-person"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"
+                />
+              </svg>
+              <p class="fw-semibold">Sign In/Register</p>
+            </div>
+            <div id="cart" class="d-flex fw-bold container-fluid">
+              <svg
+                style="color: green; margin-bottom: 15px"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-cart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                />
+              </svg>
+              <p class="fw-semibold">₹0</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
+
+
+    </div>
     <div class="d-none container-fluid shadow z-1 d-sm-none d-md-flex">
+    <div
+      class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
+      style="background-color: white"
+    >
+
       <div
-        id="nav_2"
-        class="d-flex align-items-center border-end border-1 border-black ps-3"
-        style="width: 14%"
+        class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
+        style="background-color: white"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-list"
+        <div
+          id="nav_2"
+          class="d-flex align-items-center border-end border-1 border-black ps-3"
+          style="width: 14%"
         >
+
           <path
             fill-rule="evenodd"
             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
@@ -201,16 +629,215 @@
         <p>Serveware</p>
         <p>Cleaners</p>
         <p>Detergent &amp; Fabric Care</p>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-list"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+          <p class="d-flex align-items-center pr-2 m-2">All Categories</p>
+        </div>
+        <div id="nav" class="d-flex align-items-center g-5 ms-4 mt-3">
+          <p>Value Pack</p>
+          <p>Ready To Cook</p>
+          <p>Home Appliances</p>
+          <p>Cookware</p>
+          <p>Serveware</p>
+          <p>Cleaners</p>
+          <p>Detergent& Fabric Care</p>
+        </div>
+
       </div>
+
+
+    </header>
+
     </div>
-
     <!-- Nav-bar : Aditya-start -->
-
-
+    <!-- Nav-bar : Aditya-start -->
     <!-- Nav-bar : Aditya-end -->
     <!-- 1st Carousal : Anurag-start -->
     <!-- 1st Carousal : Anurag-end -->
     <!-- Popular Categories : Aditya-start -->
+    <!-- Popular Categories : Aditya-end -->
+    <!-- 50% OFF Deals : Shivani-start -->
+    <!-- 50% OFF Deals : Shivani-end -->
+    <!-- Breakfast, Stationery, Home Decor : Baba-start -->
+    <!-- Breakfast, Stationery, Home Decor : Baba-end -->
+    <!-- Monthly Essentials : Shivani-start-->
+    <!-- Monthly Essentials : Shivani-end-->
+    <!-- Basket Must-Haves : Shivani-start -->
+    <!-- Basket Must-Haves : Shivani-end -->
+    <!-- Week's Savers : Shivani-start  -->
+    <!-- Week's Savers : Shivani-end  -->
+    <!-- Stay-Alert : Baba-start -->
+    <!-- Stay-Alert : Baba-end -->
+    <!-- Clearance Offer : Baba-start -->
+    <!-- Clearance Offer : Baba-start -->
+    <!-- Best Bargain : Ritwik-start -->
+    <div id="ritwik_div">
+      <div>
+        <h5>Best Bargain</h5>
+      </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner ritwik_carousel-inner">
+          <div class="carousel-item active ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next ritwik_carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 
 
     <div class="container-fluid">
@@ -317,7 +944,7 @@
               <h1>Soft Drinks</h1>
             </div>
           </div>
-          <div class="category-card">
+          <div class="category-card_ft">
             <div class="text-center">
               <img
                 src="https://cdn.dmart.in/images/rwd/banners/cards/16jan23-popularcat-mopswipers.png"
@@ -330,19 +957,16 @@
         </div>
       </div>
     </div>
-
-
+    <!-- Popular Categories : Aditya-end -->
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
-
-    <!-- Popular Categories : Aditya-end -->
-    <!-- 50% OFF Deals : Shivani-start -->
-     <div class="container-fluid">
+    <div class="container-fluid">
       <div class="promo-banner">
-        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1feb24-curated-halfprice3.jpg" />
+        <img
+          src="https://cdn.dmart.in/images/rwd/banners/curated/1feb24-curated-halfprice3.jpg"
+        />
       </div>
     </div>
-
     <!-- 50% OFF Deals : Shivani-end -->
     <!-- Breakfast, Stationery, Home Decor : Baba-start -->
     
@@ -353,15 +977,24 @@
   </div>
     <!-- Breakfast, Stationery, Home Decor : Baba-end -->
     <!-- Monthly Essentials : Shivani-start-->
-    <!-- Monthly Essentials : Shivani-end-->
-    <!-- Basket Must-Haves : Shivani-start -->
-
-    <div class="container-fluid">
-      <div class="promo-banner">
-        <img src="./basket-" />
+    <div class="cat-wrpr essentials-wrpr">
+      <h2>Monthly Essentials</h2>
+      <div class="row">
+        <a href="#" class="col-12 col-md-6">
+          <img src="./banner-1.jpg">
+        </a>
+        <a href="#" class="col-12 col-md-6">
+          <img src="./banner-2.jpg">
+        </a>
       </div>
     </div>
-
+    <!-- Monthly Essentials : Shivani-end-->
+    <!-- Basket Must-Haves : Shivani-start -->
+    <div class="container-fluid">
+      <div class="promo-banner">
+        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1feb24-curated-bmh-pune.jpg" />
+      </div>
+    </div>
     <!-- Basket Must-Haves : Shivani-end -->
     <!-- Week's Savers : Shivani-start  -->
     <!-- Week's Savers : Shivani-end  -->
@@ -871,6 +1504,7 @@
 
     <!-- Clearance Offer : Baba-start -->
     <!-- Best Bargain : Ritwik-start -->
+
     <!-- Best Bargain : Ritwik-end -->
     <!-- Appliances, KitchenWare : Ritwik-start -->
     <!-- Appliances, KitchenWare: Ritwik-end -->
