@@ -16,8 +16,6 @@
       crossorigin="anonymous"
     ></script>
 
-
-
     <link rel="stylesheet" href="./index.js" />
 
     <script
@@ -25,62 +23,55 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
-     <script
+    <script
       src="https://kit.fontawesome.com/a0e3ce42aa.js"
       crossorigin="anonymous"
     ></script>
-  </head>
-  <style>
-    body {
-      background-color: #f0f2f6;
-    }
-    #ritwik_div {
-      display: flex;
-      flex-direction: column;
-      width: 95%;
-      height: 60vh;
-      background-color: white;
-      margin: 1%;
-    }
-    @media screen and (min-width: 576px) {
-      .ritwik_carousel-inner {
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      body {
+        background-color: #f0f2f6;
+      }
+      #ritwik_div {
         display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 60vh;
+        background-color: white;
+        margin: 1%;
+      }
+      @media screen and (min-width: 576px) {
+        .ritwik_carousel-inner {
+          display: flex;
+        }
+
+        .ritwik_carousel-item {
+          display: block;
+          margin-right: 0;
+          flex: 0 0 calc(100% / 5);
+        }
       }
 
-      .ritwik_carousel-item {
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100% / 5);
+      .ritwik_carousel-inner {
+        padding: 1%;
       }
-    }
 
-    .ritwik_carousel-inner {
-      padding: 1%;
-    }
+      .ritwik_card {
+        margin: 0.5rem;
+      }
 
-    .ritwik_card {
-      margin: 0.5rem;
-    }
-
-    .ritwik_card > img {
-      max-width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2%;
-    }
-    
-   
-
-  
-
-
-
+      .ritwik_card > img {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+      }
 
       .container {
         display: flex;
         flex-wrap: wrap;
-
       }
 
       .cat-wrpr {
@@ -91,7 +82,6 @@
         overflow: hidden;
         margin: 24px;
         padding: 24px;
-
       }
 
       .category-card_ft {
@@ -175,90 +165,204 @@
         display: block;
         width: 100%;
       }
+      #search_bar {
+        height: 42px;
+        padding: 11px 7px 11px 7px;
+        margin-right: 30px;
+      }
+      .form-control {
+        background-color: rgba(250, 244, 244, 0.801);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+          rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+      #search_btn {
+        background-color: green;
+        color: white;
+      }
+      #profile {
+        padding: 7px 0px 0px 15px;
+        width: 175px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-right: 30px;
+      }
+      #cart {
+        padding: 7px 0px 0px 15px;
+        width: 175px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-right: 30px;
+      }
     </style>
   </head>
- <body>
+  <body>
     <!-- Nav-bar : Aditya-start -->
     <header class="position-sticky top-0 z-1">
-    <div class="border-bottom border-black " style="background-color: white">
-      <div class="container-fluid d-flex">
-        <img
-          class="container w-122 h-49 m-2"
-          src="./WhatsApp Image 2024-02-20 at 21.54.56_8743bdba.jpg"
-          alt=""
-        />
-        <button id="nav_btn" class="rounded-bottom-2 rounded-start-1 d-flex">
+      <div
+        class="border-bottom border-black container-fluid"
+        style="background-color: white"
+      >
+        <div class="container-fluid d-flex">
+          <img
+            class="container w-122 h-49 m-2"
+            src="./WhatsApp Image 2024-02-20 at 21.54.56_8743bdba.jpg"
+            alt=""
+          />
+          <button
+            id="nav_btn"
+            class="rounded-bottom-2 rounded-start-1 d-flex border-0"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-geo-alt green"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+              />
+              <path
+                d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+              />
+            </svg>
+            <p>
+              <span class="font-size:14px">38004 </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+              <br />
+              <span class="fw-bold fs-6 text-secondary">Ahmedabad</span>
+            </p>
+          </button>
+          <div class="pt-1 ps-2 me-4">
+            <p>
+              Earliest <span style="color: green">Home Delivery</span> available
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-clock"
+                viewBox="0 0 16 16"
+                style="color: orange"
+              >
+                <path
+                  d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+                />
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+                />
+              </svg>
+              Today 02:00 PM - 04:00 PM
+            </p>
+          </div>
+          <div id="search_bar">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Apko kya chiyeh"
+                aria-label="Search"
+                style="width: 320px"
+              />
+              <button
+                class="btn btn-outline-success"
+                id="search_btn"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+          <div class="d-flex">
+            <div id="profile" class="d-flex container-fluid">
+              <svg
+                style="color: green; margin-bottom: 15px"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-person"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"
+                />
+              </svg>
+              <p class="fw-semibold">Sign In/Register</p>
+            </div>
+            <div id="cart" class="d-flex fw-bold container-fluid">
+              <svg
+                style="color: green; margin-bottom: 15px"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-cart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                />
+              </svg>
+              <p class="fw-semibold">₹0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
+        style="background-color: white"
+      >
+        <div
+          id="nav_2"
+          class="d-flex align-items-center border-end border-1 border-black ps-3"
+          style="width: 14%"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-geo-alt green"
-            viewBox="0 0 16 16"
+            class="bi bi-list"
           >
             <path
-              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-            />
-            <path
-              d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
             />
           </svg>
-          <p>
-            <span class="font-size:14px">38004 </span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-chevron-down"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-              />
-            </svg>
-            <br />
-            <span class="fw-bold fs-6 text-secondary">Ahmedabad</span>
-          </p>
-        </button>
+          <p class="d-flex align-items-center pr-2 m-2">All Categories</p>
+        </div>
+        <div id="nav" class="d-flex align-items-center g-5 ms-4 mt-3">
+          <p>Value Pack</p>
+          <p>Ready To Cook</p>
+          <p>Home Appliances</p>
+          <p>Cookware</p>
+          <p>Serveware</p>
+          <p>Cleaners</p>
+          <p>Detergent& Fabric Care</p>
+        </div>
       </div>
-    </div>
-
-    <div
-      class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
-      style="background-color: white"
-    >
-      <div
-        id="nav_2"
-        class="d-flex align-items-center border-end border-1 border-black ps-3"
-        style="width: 14%"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-list"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-          />
-        </svg>
-        <p class="d-flex align-items-center pr-2 m-2">All Categories</p>
-      </div>
-      <div id="nav" class="d-flex align-items-center g-5 ms-4 mt-3">
-        <p>Value Pack</p>
-        <p>Ready To Cook</p>
-        <p>Home Appliances</p>
-        <p>Cookware</p>
-        <p>Serveware</p>
-        <p>Cleaners</p>
-        <p>Detergent& Fabric Care</p>
-      </div>
-    </div>
-  </header>
+    </header>
 
     <!-- Nav-bar : Aditya-start -->
 
@@ -266,7 +370,6 @@
     <!-- 1st Carousal : Anurag-start -->
     <!-- 1st Carousal : Anurag-end -->
     <!-- Popular Categories : Aditya-start -->
-
 
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
@@ -440,9 +543,6 @@
         </button>
       </div>
     </div>
-
-
-
 
     <div class="container-fluid">
       <div class="cat-wrpr">
