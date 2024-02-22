@@ -28,107 +28,209 @@
       </div>
     </header>
     <!-- leave a reply  -->
-    <div id="form" class="container">
-      <h2>Leave a Reply</h2>
-      <p>
-        Your email address will not be published. Required fields are marked *
-      </p>
-      <div>
-        <p>Location</p>
-        <p>Amenities</p>
-        <p>Food</p>
-        <p>Room</p>
-        <p>Price</p>
-        <p>Tour Operator</p>
+    <div id="f_body" class="container">
+      <div id="form">
+        <h2>Leave a Reply</h2>
+        <p>
+          Your email address will not be published. Required fields are marked *
+        </p>
+        <div>
+          <p>Location</p>
+          <p>Amenities</p>
+          <p>Food</p>
+          <p>Room</p>
+          <p>Price</p>
+          <p>Tour Operator</p>
+        </div>
+        <form action="" class="form-example">
+          <div>
+            <input
+              style="
+                width: 391px;
+                height: 51px;
+                border-radius: 12px;
+                margin: 30px 30px 0px 0px;
+                border: 1px solid grey;
+
+                text-align: start;
+                padding-left: 15px;
+              "
+              type="text"
+              placeholder="Name"
+              name="Name"
+              id="name"
+              required
+            />
+            <input
+              style="
+                width: 391px;
+                height: 51px;
+                padding-left: 15px;
+
+                border-radius: 12px;
+                border: 1px solid grey;
+              "
+              type="email"
+              placeholder="Email"
+              name="Email"
+              id="mail"
+              required
+            />
+          </div>
+          <div>
+            <input
+              style="
+                width: 831px;
+                height: 51px;
+                padding-left: 15px;
+                border-radius: 10px;
+                border: 1px solid grey;
+                margin: 30px 0px 30px 0px;
+              "
+              type="text"
+              placeholder="Title"
+              name="Title"
+              id="title"
+              required
+            />
+          </div>
+          <div>
+            <input
+              style="
+                width: 831px;
+                height: 133px;
+                border-radius: 12px;
+                padding-left: 15px;
+                border: 1px solid gray;
+                margin: 0px 0px 39.13px 0px;
+              "
+              type="text"
+              placeholder="Comment"
+              name="cmntbox"
+              id="cmntbox"
+            />
+          </div>
+          <div id="form_btn">
+            <button>Post Comment</button>
+          </div>
+        </form>
       </div>
-      <form action="" class="form-example">
-        <div>
-          <input
-            style="
-              width: 391px;
-              height: 51px;
-              border-radius: 12px;
-              margin: 30px 30px 0px 0px;
-              border: 1px solid grey;
-
-              text-align: start;
-              padding-left: 15px;
-            "
-            type="text"
-            placeholder="Name"
-            name="Name"
-            id="name"
-            required
-          />
-          <input
-            style="
-              width: 391px;
-              height: 51px;
-              padding-left: 15px;
-
-              border-radius: 12px;
-              border: 1px solid grey;
-            "
-            type="email"
-            placeholder="Email"
-            name="Email"
-            id="mail"
-            required
-          />
-        </div>
-        <div>
-          <input
-            style="
-              width: 831px;
-              height: 51px;
-              padding-left: 15px;
-              border-radius: 10px;
-              border: 1px solid grey;
-              margin: 30px 0px 30px 0px;
-            "
-            type="text"
-            placeholder="Title"
-            name="Title"
-            id="title"
-            required
-          />
-        </div>
-        <div>
-          <input
-            style="
-              width: 831px;
-              height: 133px;
-              border-radius: 12px;
-              padding-left: 15px;
-              border: 1px solid gray;
-              margin: 0px 0px 39.13px 0px;
-            "
-            type="text"
-            placeholder="Comment"
-            name="cmntbox"
-            id="cmntbox"
-          />
-        </div>
-        <div id="form_btn">
-          <button>Post Comment</button>
-        </div>
-      </form>
     </div>
     <!-- card -->
-    <div id="f_cards">
+    <div id="f_cards" class="container">
       <h2>You might also like...</h2>
       <div id="cards">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+          <img src="./div.tourCard__image.png" alt="" />
+          <p>Paris, France</p>
+          <h3>Centipede Tour - Guided Arizona Desert Tour by ATV</h3>
+          <p>4.8 (243)</p>
+          <div>
+            <div><p>4 days</p></div>
+            <div><p>From:$189.25</p></div>
+          </div>
+        </div>
+        <div>
+          <img src="./div.tourCard__image (1).png" alt="" />
+          <p>New York, USA</p>
+          <h3>Molokini and Turtle Town Snorkeling Adventure Aboard</h3>
+          <p>4.8 (243)</p>
+
+          <div>
+            <div><p>4 days</p></div>
+            <div><p>From:$225</p></div>
+          </div>
+        </div>
+        <div>
+          <img src="./div.tourCard__image (2).png" alt="" />
+          <p>London, UK</p>
+          <h3>Westminster Walking Tour & Westminster Abbey Entry</h3>
+          <p>4.8 (243)</p>
+          <div>
+            <div><p>4 days</p></div>
+            <div><p>From:$943</p></div>
+          </div>
+        </div>
+        <div>
+          <img src="./div.tourCard__image (3).png" alt="" />
+          <p>New York, USA</p>
+          <h3>All Inclusive Ultimate Circle Island Day Tour with Lunch</h3>
+          <p>4.8 (243)</p>
+          <div>
+            <div><p>4 days</p></div>
+            <div><p>From:$771</p></div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- footer-Aditya -->
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div>
+          <p>
+            Speak to our expert at
+            <span style="color: #eb662b">1-800-453-6744</span>
+          </p>
+          <p>Follow Us</p>
+        </div>
+        <div>
+          <div>
+            <h4>Contact</h4>
+            <p>328 Queensberry Street, North Melbourne VIC3051, Australia.</p>
+            <p>hi@viatours.com</p>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <p>About Us</p>
+            <p>Tourz Reviews</p>
+            <p>Contact Us</p>
+            <p>Travel Guides</p>
+            <p>Data Policy</p>
+            <p>Cookie Policy</p>
+            <p>Legal</p>
+            <p>Sitemap</p>
+          </div>
+          <div>
+            <h4>Support</h4>
+            <p>Get in Touch</p>
+            <p>Help center</p>
+            <p>Live chat</p>
+            <p>How it works</p>
+          </div>
+          <div>
+            <h4>Newsletter</h4>
+            <p>Subscribe to the free newsletter and stay up to date</p>
+            <input
+              style="
+                width: 260px;
 
-    <header>
-      <div></div>
-    </header>
+                border-radius: 12px;
+                border: none;
+                padding: 21px 20px 21px 20px;
+              "
+              type="email"
+              name=""
+              id=""
+              placeholder="Your Email Address"
+            /><br />
+
+            <h4>Mobile Apps</h4>
+            <p>iOS App</p>
+            <p>Android App</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="copywrite" class="container">
+      <p>© Copyright Viatours 2024</p>
+      <div>
+        <img src="./Footer (1).png" alt="" />
+        <img src="./Footer (2).png" alt="" />
+        <img src="./Footer (3).png" alt="" />
+        <img src="./Footer (4).png" alt="" />
+        <img src="./Footer (5).png" alt="" />
+        <img src="./Footer (6).png" alt="" />
+      </div>
+    </div>
   </body>
 </html>
