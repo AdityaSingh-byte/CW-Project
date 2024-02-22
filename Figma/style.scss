@@ -1,0 +1,33 @@
+@media (min-width: 1440px) {
+    .container {
+      width: 1320px;
+      margin: auto;
+    }
+  }
+  header{
+    display: flex;
+    align-items: center;
+    >div:nth-of-type(1){
+        display: flex;
+        align-items: center;
+        >img{
+           
+            margin-left: 15px;
+            width: 167px;
+            height: 32px;
+        }
+        >p{
+            margin-left: 30px;
+            padding: 12px 13px 12.13px 47px;
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #757575;
+
+
+        }
+    }
+  }
