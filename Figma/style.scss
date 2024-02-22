@@ -125,6 +125,17 @@ text-align: left;
 
    
   }
+  #f_cards{
+    >h2{
+      font-family: $inter;
+      font-weight: 700;
+      font-size: 29px;
+      letter-spacing: 0em;
+      line-height: 45px;
+      text-align: left;
+
+    }
+  }
  #form_btn{
   >button{
     width: 203.31px;
@@ -137,13 +148,204 @@ text-align: left;
     color: white;
     font-family: $inter;
    
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+ 
+ }
+ #cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 149px;
+  >div{
+    padding: 11px 0px 0px 0px;
+    width: 300px;
+    height: 375.31px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 12px;
+    >img{
+      margin: 0px 11px 0px 11px;
+    }
+    >div{
+      border-top: 1px solid rgb(199, 199, 199);
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 21px 11px 21px;
+      >div{
+        padding-left:21px ;
+        >p{
+          font-family: $inter;
+          font-weight: 400;
+          font-size: 13px;
+          letter-spacing: 0em;
+          line-height: 24px;
+          text-align: left;
+
+        }
+      }
+    }
+    >p:nth-of-type(1){
+      font-family: $inter;
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 0em;
+      line-height: 24px;
+      color:#717171;
+      text-align: left;
+      
+      margin: 10px 0px 5.99px 42px;
+    }
+    >p:nth-of-type(2){
+      font-family: $inter;
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 0em;
+      line-height: 24px;
+      color:#05073C;
+      text-align: left;
+      margin: 10px 0px 0px 101px;
+
+
+    }
+    >h3{
+      font-family: $inter;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0em;
+      line-height: 24px;
+      text-align: left;
+      margin: 0px 29.6px 10px 21px;
+
+
+
+    }
+  }
+ }
+ footer{
+  background-image: url(./Footer.png);
+  background-size: cover;
+ 
+  >div{
+    height: 655.13px;
+    padding-bottom: 80.1px ;
+    
+    >div:nth-of-type(1){
+      display: flex;
+      justify-content: space-between;
+      padding: 94.31px 0px 64.82px 80px;
+      border-bottom: 1px solid  #fccbb6;
+      >p:nth-of-type(1){
+        font-family: $inter;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 38px;
+        text-align: left;
+
+      }
+      >p:nth-of-type(2){
+        font-family: $inter;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0em;
+        line-height: 32px;
+        margin-right: 169.8px;
+        text-align: left;
+
+      }
+    }
+  
+  >div:nth-of-type(2){
+   
+    display: grid;
+    
+    grid-template-areas: "q1 q1 q2 q3 q4 q4 ";
+    >div{
+      margin-right: 100.7px;
+      margin-top: 39.99px;
+    
+      >h4{
+        font-family: $inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+      }
+      >p{
+        font-family: $inter;
 font-size: 15px;
 font-weight: 500;
 line-height: 28px;
 letter-spacing: 0em;
-text-align: center;
+text-align: left;
+
+      }
+    }
+
+    >div:nth-of-type(1){
+      width: 439.98px;
+      height: 390px;
+      padding: 0px 0px 0px 15px;
+      grid-area: q1;
+      
+      >p{
+        font-family: $inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+      }
+      
+    }>div:nth-of-type(2){
+      width: 128.23px;
+      height: 390px;
+      
+      grid-area: q2;
+    }
+    >div:nth-of-type(3){
+      width: 119.59px;
+      height: 390px;
+      grid-area: q3;
+    }
+    >div:nth-of-type(4){
+      width: 330px;
+      height: 390px;
+
+      grid-area: q4;
+      >p{
+        font-family:$inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+      }
+    }
+  }
+}
+ }
+ #copywrite{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  >p{
+    font-family: $inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
 
   }
- 
  }
  
