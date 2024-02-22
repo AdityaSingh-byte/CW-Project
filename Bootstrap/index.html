@@ -16,7 +16,10 @@
       crossorigin="anonymous"
     ></script>
 
+
+
     <link rel="stylesheet" href="./index.js" />
+
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -77,6 +80,18 @@
       .container {
         display: flex;
         flex-wrap: wrap;
+
+      }
+
+      .cat-wrpr {
+        background: #fff;
+        border: 0.5px solid #d3d3d3;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        margin: 24px;
+        padding: 24px;
+
       }
 
       .category-card_ft {
@@ -88,9 +103,8 @@
       body {
         background-color: #f0f2f6;
       }
-    
-      .promo-banner {
 
+      .promo-banner {
         background: #fff;
         border: 0.5px solid #d3d3d3;
         border-radius: 4px;
@@ -155,22 +169,18 @@
         p {
           cursor: pointer;
         }
-
-        padding: 24px;
-        margin: 24px;
       }
-    
+
       .promo-banner img {
         display: block;
         width: 100%;
-
       }
     </style>
   </head>
  <body>
     <!-- Nav-bar : Aditya-start -->
 
-    <div class="border-bottom border-black">
+    <div class="border-bottom border-black" style="background-color: white">
       <div class="container-fluid d-flex">
         <img
           class="container w-122 h-49 m-2"
@@ -215,7 +225,10 @@
       </div>
     </div>
 
-    <div class="d-none container-fluid shadow z-1 d-sm-none d-md-flex">
+    <div
+      class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
+      style="background-color: white"
+    >
       <div
         id="nav_2"
         class="d-flex align-items-center border-end border-1 border-black ps-3"
@@ -247,15 +260,13 @@
     </div>
 
 
- 
-  
     <!-- Nav-bar : Aditya-start -->
-
 
     <!-- Nav-bar : Aditya-end -->
     <!-- 1st Carousal : Anurag-start -->
     <!-- 1st Carousal : Anurag-end -->
     <!-- Popular Categories : Aditya-start -->
+
 
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
@@ -432,6 +443,7 @@
 
 
 
+
     <div class="container-fluid">
       <div class="cat-wrpr">
         <h2>Popular Categories</h2>
@@ -536,7 +548,7 @@
               <h1>Soft Drinks</h1>
             </div>
           </div>
-          <div class="category-card">
+          <div class="category-card_ft">
             <div class="text-center">
               <img
                 src="https://cdn.dmart.in/images/rwd/banners/cards/16jan23-popularcat-mopswipers.png"
@@ -550,15 +562,16 @@
       </div>
     </div>
 
-
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
 
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
-     <div class="container-fluid">
+    <div class="container-fluid">
       <div class="promo-banner">
-        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1feb24-curated-halfprice3.jpg" />
+        <img
+          src="https://cdn.dmart.in/images/rwd/banners/curated/1feb24-curated-halfprice3.jpg"
+        />
       </div>
     </div>
 
