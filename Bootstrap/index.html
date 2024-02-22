@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/8f55c22354.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,7 +22,7 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
-    <script
+     <script
       src="https://kit.fontawesome.com/a0e3ce42aa.js"
       crossorigin="anonymous"
     ></script>
@@ -39,161 +35,61 @@
       display: flex;
       flex-direction: column;
       width: 95%;
-      height: auto;
+      height: 60vh;
       background-color: white;
-      margin: auto;
-      margin-top: 2%;
-      padding: 2%;
+      margin: 1%;
+    }
+    @media screen and (min-width: 576px) {
+      .ritwik_carousel-inner {
+        display: flex;
+      }
+
+      .ritwik_carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 5);
+      }
     }
 
-    #ritwik_div > div:nth-child(1) {
-      display: flex;
-      justify-content: space-between;
+    .ritwik_carousel-inner {
+      padding: 1%;
     }
 
     .ritwik_card {
-      display: flex;
-      justify-content: center;
+      margin: 0.5rem;
     }
+
     .ritwik_card > img {
-      width: 60%;
-      height: 20vh;
-      margin: auto;
-      margin-left: 20%;
-    }
-
-    .ritwik_card_price {
+      max-width: 100%;
       display: flex;
-    }
-
-    .ritwik_card_price > div {
-      width: 80px;
-      height: 70px;
-
-      /* display: flex;
-      flex-direction: column;
       justify-content: center;
-      align-items: center; */
-    }
-    .ritwik_card_price > div:nth-child(1) {
-      color: #878787;
-      font-size: 14px;
-    }
-
-    .ritwik_carousel-item > div {
-      margin-left: 1%;
-    }
-
-    .ritwik_card_price > div:nth-child(2) {
-      font-size: 14px;
-      font-weight: 400;
-    }
-    .ritwik_card_price > div:nth-child(1) > span {
-      text-decoration: line-through;
-    }
-    .ritwik_card_price > div > p {
-      margin: 0%;
-    }
-
-    .ritwik_card_price > div:nth-child(3) {
-      background-color: #e9f6ec;
-      color: #28a54a;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .cat-wrpr {
-      background: #fff;
-      border: 0.5px solid #d3d3d3;
-      border-radius: 4px;
-      position: relative;
-      overflow: hidden;
-      margin: 24px;
-      padding: 24px;
-    }
-
-    .category-card_ft {
-      margin: 10px;
-      cursor: pointer;
-      flex: 0 0 100px;
-      min-width: 100px;
-    }
-    body {
-      background-color: #f0f2f6;
-    }
-
-    .promo-banner {
-      background: #fff;
-      border: 0.5px solid #d3d3d3;
-      border-radius: 4px;
-      position: relative;
-      overflow: hidden;
-      margin: 24px;
-      padding: 24px;
-    }
-
-
-    .cat-wrpr h2 {
-      color: #373737;
-      font-family: Mulish, sans-serif;
-      font-weight: 700;
-      font-size: 16px;
-      margin-bottom: 8px;
-    }
-
-    .category-card_ft h1 {
-      color: #373737;
-      font-family: Mulish, sans-serif;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.4;
-      padding-top: 20px;
-    }
-
-    .category-card_ft + .category-card_ft {
-      margin-left: 20px;
-    }
-    .w-122 {
-      width: 122px;
-    }
-    .h-49 {
-      height: 49px;
-    }
-
-    #nav_btn {
-      padding-top: 11px;
-      padding-bottom: -4px;
-      padding-left: 7px;
-      padding-right: 7px;
-      border: none;
-      background-color: #f2f6ff;
-    }
-    .green {
-      color: green;
-      margin-top: 5px;
-      margin-right: 2px;
-      margin-bottom: 0px;
+      align-items: center;
+      padding: 2%;
     }
     
-    #nav {
-      gap: 30px;
-      > p {
-     cursor: pointer;
+   
+
+  
+
+
+
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+
       }
-    }
-    
-     #nav_1 {
-      margin-right: 30px;
-    }
-    #nav_2 {
-      > svg,
-      p {
-        cursor: pointer;
-        }
-     }
+
+      .cat-wrpr {
+        background: #fff;
+        border: 0.5px solid #d3d3d3;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        margin: 24px;
+        padding: 24px;
+
+      }
  body {
         background-color: #f0f2f6;
       }
@@ -204,10 +100,10 @@
 
       .category-card {
         margin: 10px;
-     } 
-   
-   
-
+        cursor: pointer;
+        flex: 0 0 100px;
+        min-width: 100px;
+      }
       .cat-wrpr {
         background: #fff;
         border: 0.5px solid #d3d3d3;
@@ -237,14 +133,7 @@
 
       .category-card + .category-card {
         margin-left: 20px;
-       }
-   
-
-
-    .promo-banner img {
-      display: block;
-      width: 100%;
-    }
+      }
 
       .promo-banner {
         background: #fff;
@@ -462,44 +351,33 @@
       }
      
 
-
-    .ritwik_kitchen {
-      margin: auto;
-      width: 95%;
-      height: 35vh;
-    }
-
-    .ritwik_kitchen > div {
-      width: 50%;
-      height: 100%;
-    }
-
-    .ritwik_kitchen > div > img {
-      width: 100%;
-      height: 100%;
-    }
-
-
-    .ritwik_kitchen > div:hover {
-      cursor: pointer;
-      transform: scale(1.04);
-      transition: transform 500ms;
-    }
-
-    @media all and (max-width: 767px) {
-      .ritwik_kitchen {
-        height: 50vh;
+      .cat-wrpr h2 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 8px;
       }
 
-      .ritwik_kitchen > div {
-        width: 100%;
-        height: 50%;
+      .category-card_ft h1 {
+        color: #373737;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.4;
+        padding-top: 20px;
       }
-      
-      .ritwik_kitchen > div:hover {
-        transform: scale(1.02);
+
+      .category-card_ft + .category-card_ft {
+        margin-left: 20px;
       }
-    }
+      .w-122 {
+        width: 122px;
+      }
+      .h-49 {
+        height: 49px;
+      }
+
       #nav_btn {
         padding-top: 11px;
         padding-bottom: -4px;
@@ -532,10 +410,17 @@
         padding: 24px;
         margin: 24px;
       }
+
+      }
+
+      .promo-banner img {
+        display: block;
+        width: 100%;
+      }
+
     </style>
   </head>
  <body>
-
     <!-- Nav-bar : Aditya-start -->
     <header class="position-sticky top-0 z-1">
     <div class="border-bottom border-black " style="background-color: white">
@@ -582,7 +467,6 @@
         </button>
       </div>
     </div>
-    </header>
     <div class="d-none container-fluid shadow z-1 d-sm-none d-md-flex">
     <div
       class="d-none container-fluid shadow z-1 d-sm-none d-md-flex"
@@ -617,7 +501,6 @@
         <p>Detergent& Fabric Care</p>
       </div>
     </div>
-    </div>
     <!-- Nav-bar : Aditya-start -->
   </header>
     <!-- Nav-bar : Aditya-start -->
@@ -625,7 +508,6 @@
     <!-- 1st Carousal : Anurag-start -->
     <!-- 1st Carousal : Anurag-end -->
     <!-- Popular Categories : Aditya-start -->
-
     <!-- Popular Categories : Aditya-end -->
     <!-- 50% OFF Deals : Shivani-start -->
     <!-- 50% OFF Deals : Shivani-end -->
@@ -645,448 +527,135 @@
     <div id="ritwik_div">
       <div>
         <h5>Best Bargain</h5>
-        <h5 style="color: #28a54a">View All</h5>
       </div>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner ritwik_carousel-inner">
           <div class="carousel-item active ritwik_carousel-item">
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
+            <div class="card ritwik_card">
               <img
-                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShsjCudt8LOCd6G_CGVWLqMf9wF0Gu8tKvgUc-WVQT3MNphL1b"
-                class="card-img-top ritwik_card-img-top mt-1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
                 alt="..."
               />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="carousel-item ritwik_carousel-item">
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
+            <div class="card ritwik_card">
               <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
                 alt="..."
               />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
-              </div>
-            </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
-              <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
-                alt="..."
-              />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="carousel-item ritwik_carousel-item">
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
+            <div class="card ritwik_card">
               <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
                 alt="..."
               />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
               <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
                 alt="..."
               />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
               <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
                 alt="..."
               />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
               <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
                 alt="..."
               />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <div class="card d-inline-block ritwik_card" style="width: 16rem">
+          </div>
+
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
               <img
-                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX5Id9JWFRENRUQG_kRWYBlfGdZedqWHRPF_xkRe8MJKBPmRR8"
-                class="card-img-top ritwik_card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
                 alt="..."
               />
-              <div class="card-body ritwik_card-body">
-                <p>Wonderchef Crescent Electric Kettle - 1.5 Litres : 1500 W</p>
-                <div class="ritwik_card_price">
-                  <div>
-                    <p>MRP</p>
-                    <span>₹ 1600</span>
-                    <p>Inclusive of</p>
-                  </div>
-                  <div>
-                    <p>DMart</p>
-                    <p>₹ 499</p>
-                  </div>
-                  <div>₹ 1101 OFF</div>
-                </div>
-                <div class="border p-2 mb-2 mt-1">1 Unit</div>
-                <button
-                  type="button"
-                  class="btn ritwik_button btn-success w-100"
-                >
-                  <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
-                </button>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ritwik_carousel-item">
+            <div class="card ritwik_card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaFHq9uLJHGCeGGP1OWihBI07xKB3pJtaeBRJ0Nhva8kYL6WF"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -1101,7 +670,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          class="carousel-control-next ritwik_carousel-control-next"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="next"
@@ -1111,6 +680,11 @@
         </button>
       </div>
     </div>
+
+
+
+
+
     <div class="container-fluid">
       <div class="cat-wrpr">
         <h2>Popular Categories</h2>
@@ -1271,24 +845,6 @@
 
     <!-- Best Bargain : Ritwik-end -->
     <!-- Appliances, KitchenWare : Ritwik-start -->
-    <div>
-      <div
-        class="d-flex flex-column border rounded-1 flex-md-row gap-2 p-1 mb-md-3 p-md-4 gap-md-3 bg-white ritwik_kitchen"
-      >
-        <div>
-          <img
-            src="https://cdn.dmart.in/images/rwd/banners/vwctb/1may23-2cw-appliances-c.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.dmart.in/images/rwd/banners/vwctb/1may23-2cw-kitchenware-c.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
     <!-- Appliances, KitchenWare: Ritwik-end -->
     <!-- 2nd Carousal : Anurag-start -->
     <!-- 2nd Carousal : Anurag-end -->
