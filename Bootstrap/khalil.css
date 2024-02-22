@@ -1,0 +1,74 @@
+.b_div,
+.b_stay,
+.b_clear {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.b_div>img {
+  width: 32.5%;
+  /* transform: scale(105%); */
+}
+
+.b_stay>img {
+  width: 100%;
+}
+
+:is(.b_div>img, .b_card>div:nth-of-type(1)):hover {
+  transform: scale(103%);
+  transition: transform 0.3s linear;
+}
+
+.b_card {
+  box-shadow: rgba(246, 247, 248, 0.3) 0px 1px 2px 0px, rgba(234, 237, 240, 0.15) 0px 2px 6px 2px;
+  align-items: center;
+}
+
+.b_card>div:nth-of-type(1) {
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid red; */
+  background-image: url("https://cdn.dmart.in/images/products/OCT190001351xx6OCT21_5_P.jpg"),
+    url("https://cdn.dmart.in/images/rwd/misc/NoImage_P.jpg");
+}
+
+.b_card_body {
+  /* border: 1px solid; */
+  padding-bottom: 0;
+}
+
+.b_flex>div:nth-of-type(1) pre {
+  margin: 0;
+}
+
+.b_flex>div:nth-of-type(2) button {
+  background-color: #e9f6ec;
+  color: #33ab4d;
+
+}
+
+.b_btn>button:nth-of-type(1) {
+  width: 80%;
+}
+
+.b_btn>button:nth-of-type(2) {
+  background-color: #25a541;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 700;
+}
+@media (max-width:768px){
+  .b_card{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+  }
+  .b_card {
+  /* border: 1px solid; */
+  display: flex;
+  min-width: 300px;
+  /* height: 50vh; */
+  box-shadow: rgba(246, 247, 248, 0.3) 0px 1px 2px 0px, rgba(234, 237, 240, 0.15) 0px 2px 6px 2px;
+  align-items: center;
+}
+}
