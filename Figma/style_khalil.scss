@@ -1,0 +1,73 @@
+@media (min-width: 1320px) {
+    .container {
+        width: 1320px;
+        margin: auto;
+    }
+}
+.bg{
+    .container{
+        border: 1px solid red;
+        .sub_container{
+            width: 880;
+            h1{
+                font-size: 29.53px;
+                line-height: 45px;
+                font-weight: 700;
+                color: #05073c;
+            }
+            table{
+                width: 850px;
+                thead{
+                    tr{
+                        
+                        th{
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: 15.5px;
+                            background: #EB662B1A;                            ;
+                            line-height: 24px;
+                            color: #05073c;
+                            // border:1px solid ;
+                            p{
+                                font-weight: 400;
+                                margin: 0;
+                                font-size: 14.65px;
+                                line-height: 22.5px;
+                                
+                            }
+                        }
+
+                    }
+                }
+                tbody{
+                    tr{
+                        td{
+                            font-weight: 500;
+                            font-size: 15.5px;
+                            background: #e7bead1a;                            ;
+                            line-height: 24px;
+                            color: #05073c;
+                            // font-size: 32px;
+                            p{
+                                font-weight: 400;
+                                margin: 2px;
+                                font-size: 14.65px;
+                                line-height: 22.5px;
+                            }
+                        }
+                        td:nth-of-type(odd){
+                            width: 343px;
+                            
+                            // border: 1px solid;
+                            
+                            
+                        }
+                    }
+                }
+            }
+            
+
+        }
+    }
+
+}
