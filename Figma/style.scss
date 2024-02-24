@@ -38,69 +38,74 @@ header {
 
     align-items: center;
 
-    > a {
-      text-decoration: none;
-      font-family: $inter;
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 28px;
-      letter-spacing: 0em;
-      text-align: left;
-      color: #05073c;
-    }
-    > a:nth-of-type(1) {
-      margin: 11px 42.8px 11.13px 20px;
-    }
-    > a:nth-of-type(2) {
-      margin: 11px 42.8px 11.13px 20px;
-    }
-    > a:nth-of-type(3) {
-      margin: 11px 42.8px 11.13px 20px;
-    }
-    > button {
-      padding: 12px 21px 12.08px 21px;
-      border-radius: 40px;
-      margin-left: 29.8px;
-      border: none;
-      background-color: #eb662b;
-      color: white;
-      font-family: $inter;
-      font-weight: 500;
-      font-size: 14px;
-      letter-spacing: 0em;
-      line-height: 28px;
+      >a{
+        text-decoration: none;
+        font-family: $inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #05073C;
 
-      text-align: center;
+
+      }
+      >a:nth-of-type(1){
+        margin: 11px 42.8px 11.13px 20px;
+      }
+      >a:nth-of-type(2){
+        margin: 11px 42.8px 11.13px 20px;
+      }
+      >a:nth-of-type(3){
+        margin: 11px 42.8px 11.13px 20px;
+      }
+      >button{
+        padding: 12px 21px 12.08px 21px;
+        border-radius: 40px;
+        margin-left: 29.8px;
+        border: none;
+        background-color: #EB662B;
+        color: white;
+        font-family: $inter;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 28px;
+        
+        text-align: center;
+      }
     }
+   
   }
-}
-#form {
-  margin-bottom: 105px;
-  padding-bottom: 15px;
-  width: 880px;
-  padding-left: 15px;
-  padding-right: 15px;
-  > h2 {
-    font-family: $inter;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  > p {
-    font-family: $inter;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0em;
-    line-height: 28px;
-    text-align: left;
-  }
-  > div:nth-of-type(1) {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(3, 1fr);
-    padding-right: 357.98px;
+  #form{
+    margin-bottom: 105px;
+    padding-bottom: 15px;
+    width: 880px;
+    padding-left: 15px;
+    padding-right: 15px;
+    >h2{
+      font-family: $inter;
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    >p{
+      font-family: $inter ;
+      font-weight: 400;
+      font-size: 15px;
+      letter-spacing: 0em;
+      line-height: 28px;
+      text-align: left;
+
+    }
+    >div:nth-of-type(1){
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: repeat(3,1fr);
+      padding-right: 357.98px;
 
     > p {
       font-family: $inter;
