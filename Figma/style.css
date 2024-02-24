@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap");
 @media (min-width: 1320px) {
   .container {
     width: 1320px;
@@ -46,7 +47,7 @@ header > div:nth-of-type(2) > a {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073c;
+  color: #05073C;
 }
 header > div:nth-of-type(2) > a:nth-of-type(1) {
   margin: 11px 42.8px 11.13px 20px;
@@ -62,7 +63,7 @@ header > div:nth-of-type(2) > button {
   border-radius: 40px;
   margin-left: 29.8px;
   border: none;
-  background-color: #eb662b;
+  background-color: #EB662B;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -644,4 +645,195 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   width: 580px;
   margin-bottom: 30px;
   margin-top: 0px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media (min-width: 1320px) {
+  .container {
+    width: 1320px;
+    margin: auto;
+  }
+}
+.bg .container .sub_container {
+  width: 880;
+  margin: 15px;
+  font-family: "Inter", sans-serif;
+}
+.bg .container .sub_container h1 {
+  font-size: 29.53px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #05073c;
+}
+.bg .container .sub_container table {
+  width: 850px;
+}
+.bg .container .sub_container table thead tr {
+  height: 78.5px;
+}
+.bg .container .sub_container table thead tr th {
+  text-align: start;
+  padding-left: 90px;
+  font-weight: 600;
+  font-size: 15.5px;
+  background: rgba(235, 102, 43, 0.1019607843);
+  line-height: 24px;
+  color: #05073c;
+}
+.bg .container .sub_container table thead tr th p {
+  font-weight: 400;
+  margin: 0;
+  font-size: 14.65px;
+  line-height: 22.5px;
+}
+.bg .container .sub_container table thead tr th:nth-of-type(2) {
+  padding-left: 9.8px;
+  box-sizing: border-box;
+}
+.bg .container .sub_container table tbody tr {
+  height: 78.5px;
+}
+.bg .container .sub_container table tbody tr td {
+  font-weight: 600;
+  font-size: 15.5px;
+  background: rgba(231, 190, 173, 0.1019607843);
+  line-height: 24px;
+  color: #05073c;
+}
+.bg .container .sub_container table tbody tr td p {
+  font-weight: 400;
+  margin: 2px;
+  font-size: 14.65px;
+  line-height: 22.5px;
+}
+.bg .container .sub_container table tbody tr td:nth-of-type(odd) {
+  width: 343px;
+  box-sizing: border-box;
+  padding-left: 90px;
+}
+.bg .container .sub_container table tbody tr td:nth-of-type(even) {
+  box-sizing: border-box;
+  padding-left: 9.8px;
+}
+.bg .container .sub_container .baba_incon > .span-main {
+  width: 880px;
+  display: flex;
+}
+.bg .container .sub_container .baba_incon > .span-main > .ma {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+.bg .container .sub_container .baba_incon > .span-main > .f {
+  height: 30px;
+  margin-top: 35px;
+  margin-left: 5px;
+  padding-top: 7.5px;
+  box-sizing: border-box;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #05073C;
+  font-family: "Inter", sans-serif;
+}
+.bg .container .sub_container .baba_incon > .span-main > .f1 {
+  height: 30px;
+  margin-top: 35px;
+  margin-left: 643.53px;
+  padding-top: 7.5px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bg .container .sub_container .baba_incon > .b-h4 {
+  height: 30px;
+  margin-top: 15px;
+  padding-top: 8px;
+  margin-left: 95px;
+  color: #05073C;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bg .container .sub_container .baba_incon > .sec-b3 {
+  width: 831.47px;
+  height: 48.13px;
+  margin-top: 14px;
+  color: #05073C;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bg .container .sub_container .baba_incon > .baba-img > img:nth-of-type(1) {
+  margin-top: 24.12px;
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  padding-bottom: 20px;
+}
+.bg .container .sub_container .baba_incon > .baba-img > img:nth-of-type(2) {
+  margin-left: 5px;
+  margin-top: 24.12px;
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  padding-bottom: 20px;
+}
+.bg .container .sub_container .baba_incon > .baba-img > img:nth-of-type(3) {
+  margin-left: 5px;
+  margin-top: 24.12px;
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  padding-bottom: 20px;
+}
+.bg .container .sub_container .baba_incon .my-div .first-span {
+  padding-top: 20px;
+}
+.bg .container .sub_container .baba_incon .my-div .first-span > .s1 {
+  width: 48.72px;
+  height: 28.13px;
+  margin-top: 20px;
+  margin-left: 26px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bg .container .sub_container .baba_incon .my-div .first-span > .s2 {
+  width: 48.72px;
+  height: 28.13px;
+  margin-top: 20px;
+  margin-left: 40.8px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bg .container .sub_container button {
+  border: 1px solid #Eb662b;
+  width: 222.14px;
+  border-radius: 12px;
+  height: 62px;
+  margin-top: 30px;
+  color: #eb662b;
+  background: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
