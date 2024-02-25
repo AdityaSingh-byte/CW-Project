@@ -7,7 +7,8 @@ This project is a clone of the homepage of [Dmart](https://www.dmart.in/), a pop
 Frontend 
 
 ## Deplolyed App
-Frontend: https://deployed-site.whatever
+D-mart app: https://dmart-new.netlify.app/
+Figma design : https://figma-best.netlify.app/
 
 ## Directory Structure
 User yeah 
@@ -36,35 +37,40 @@ List out the key features of your application.
 
 - Sticky Navbar : while scrolling the navbar sticks at the top of the view height.
 - Ham-burger icon
+- Pixel perfect design
 
 ## design decisions or assumptions
 List your design desissions & assumptions
 
 ## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
+##bootstrap :
 
-```bash
-npm install my-project
-cd my-project
-npm start
-```
+1)  Go to Terminal
+   Enter the commands :
+         cd path/to/your/project
+         npm init -y
+         npm install bootstrap
+
+                  OR
+                  
+  Copy paste the link in head of HTML code:
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+  
+2) Clone the repo in your terminal, run the command :
+                   git clone 
+  
 
 ## Usage
 
 
-Include screenshots as necessary.
+
 
 ## Credentials
 Provide user credentials for autheticated pages
 
 ## APIs Used
 -Bootstrap
-
-## API Endpoints
-In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
-
 
 ## Technology Stack
 List and provide a brief overview of the technologies used in the project.
