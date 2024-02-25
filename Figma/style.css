@@ -834,4 +834,94 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   margin-top: 30px;
   color: #eb662b;
   background: #fff;
+}
+
+#ritwik_available {
+  font-family: "Inter", sans-serif;
+  width: 880px;
+  height: auto;
+  margin-bottom: 60px;
+}
+#ritwik_available > h1 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+#ritwik_available #ritwik_calender {
+  width: 504px;
+  height: 305.25px;
+  box-shadow: 0px 0px 5px 0px #8798ad;
+  margin-left: 15px;
+  border-radius: 5px;
+  padding: 22px 15px 22px 15px;
+  box-sizing: border-box;
+}
+#ritwik_available #ritwik_calender > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ritwik_available #ritwik_calender > div:nth-child(1) > p {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0px;
+}
+#ritwik_available #ritwik_calender > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+#ritwik_available #ritwik_calender > div:nth-child(2) > p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  word-spacing: 8px;
+  color: #eb662b;
+}
+#ritwik_available #ritwik_calender > div:nth-child(3) > div {
+  display: flex;
+  justify-content: space-between;
+}
+#ritwik_available #ritwik_calender > div:nth-child(3) > div > p {
+  margin-top: 0px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  word-spacing: 21px;
+}
+#ritwik_available #ritwik_calender > div:nth-child(3) div:nth-child(1) {
+  margin-left: 140px;
+}
+#ritwik_available #ritwik_calender > div:nth-child(3) div:nth-child(3) > p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  word-spacing: 18px;
+}
+#ritwik_available #ritwik_calender > div:nth-child(3) div:nth-child(4) > p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  word-spacing: 17px;
+}
+#ritwik_available #ritwik_calender > div:nth-child(3) div:nth-child(5) > p {
+  text-align: center;
+  word-spacing: 12px;
 }/*# sourceMappingURL=style.css.map */
