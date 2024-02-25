@@ -47,7 +47,7 @@ header > div:nth-of-type(2) > a {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 header > div:nth-of-type(2) > a:nth-of-type(1) {
   margin: 11px 42.8px 11.13px 20px;
@@ -63,7 +63,7 @@ header > div:nth-of-type(2) > button {
   border-radius: 40px;
   margin-left: 29.8px;
   border: none;
-  background-color: #EB662B;
+  background-color: #eb662b;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -735,7 +735,7 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
   font-family: "Inter", sans-serif;
 }
 .bg .container .sub_container .baba_incon > .span-main > .f1 {
@@ -756,7 +756,7 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   margin-top: 15px;
   padding-top: 8px;
   margin-left: 95px;
-  color: #05073C;
+  color: #05073c;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -768,7 +768,7 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   width: 831.47px;
   height: 48.13px;
   margin-top: 14px;
-  color: #05073C;
+  color: #05073c;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -827,13 +827,11 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   text-align: left;
 }
 .bg .container .sub_container button {
-  border: 1px solid #Eb662b;
+  border: 1px solid #eb662b;
   width: 222.14px;
   border-radius: 12px;
   height: 62px;
   margin-top: 30px;
   color: #eb662b;
   background: #fff;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

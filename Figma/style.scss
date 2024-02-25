@@ -17,17 +17,17 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  >div:nth-of-type(1) {
+  > div:nth-of-type(1) {
     display: flex;
     align-items: center;
 
-    >img {
+    > img {
       margin-left: 15px;
       width: 167px;
       height: 32px;
     }
 
-    >p {
+    > p {
       margin-left: 30px;
       padding: 12px 13px 12.13px 47px;
       font-family: "Inter", sans-serif;
@@ -40,12 +40,12 @@ header {
     }
   }
 
-  >div:nth-of-type(2) {
+  > div:nth-of-type(2) {
     display: flex;
 
     align-items: center;
 
-    >a {
+    > a {
       text-decoration: none;
       font-family: $inter;
       font-size: 15px;
@@ -53,29 +53,27 @@ header {
       line-height: 28px;
       letter-spacing: 0em;
       text-align: left;
-      color: #05073C;
-
-
+      color: #05073c;
     }
 
-    >a:nth-of-type(1) {
+    > a:nth-of-type(1) {
       margin: 11px 42.8px 11.13px 20px;
     }
 
-    >a:nth-of-type(2) {
+    > a:nth-of-type(2) {
       margin: 11px 42.8px 11.13px 20px;
     }
 
-    >a:nth-of-type(3) {
+    > a:nth-of-type(3) {
       margin: 11px 42.8px 11.13px 20px;
     }
 
-    >button {
+    > button {
       padding: 12px 21px 12.08px 21px;
       border-radius: 40px;
       margin-left: 29.8px;
       border: none;
-      background-color: #EB662B;
+      background-color: #eb662b;
       color: white;
       font-family: $inter;
       font-weight: 500;
@@ -86,7 +84,6 @@ header {
       text-align: center;
     }
   }
-
 }
 
 #form {
@@ -96,33 +93,31 @@ header {
   padding-left: 15px;
   padding-right: 15px;
 
-  >h2 {
+  > h2 {
     font-family: $inter;
     font-size: 30px;
     font-weight: 700;
     line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
-
   }
 
-  >p {
-    font-family: $inter ;
+  > p {
+    font-family: $inter;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 0em;
     line-height: 28px;
     text-align: left;
-
   }
 
-  >div:nth-of-type(1) {
+  > div:nth-of-type(1) {
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
     padding-right: 357.98px;
 
-    >p {
+    > p {
       font-family: $inter;
       font-size: 15px;
       font-weight: 400;
@@ -134,7 +129,7 @@ header {
 }
 
 #f_cards {
-  >h2 {
+  > h2 {
     font-family: $inter;
     font-weight: 700;
     font-size: 29px;
@@ -145,7 +140,7 @@ header {
 }
 
 #form_btn {
-  >button {
+  > button {
     width: 203.31px;
     height: 62px;
 
@@ -170,27 +165,27 @@ header {
   gap: 30px;
   margin-bottom: 149px;
 
-  >div {
+  > div {
     padding: 11px 0px 0px 0px;
     width: 300px;
     height: 375.31px;
     border: 1px solid rgb(192, 192, 192);
     border-radius: 12px;
 
-    >img {
+    > img {
       margin: 0px 11px 0px 11px;
     }
 
-    >div {
+    > div {
       border-top: 1px solid rgb(199, 199, 199);
       display: flex;
       justify-content: space-between;
       margin: 0px 21px 11px 21px;
 
-      >div {
+      > div {
         padding-left: 21px;
 
-        >p {
+        > p {
           font-family: $inter;
           font-weight: 400;
           font-size: 13px;
@@ -201,7 +196,7 @@ header {
       }
     }
 
-    >p:nth-of-type(1) {
+    > p:nth-of-type(1) {
       font-family: $inter;
       font-weight: 400;
       font-size: 12px;
@@ -213,7 +208,7 @@ header {
       margin: 10px 0px 5.99px 42px;
     }
 
-    >p:nth-of-type(2) {
+    > p:nth-of-type(2) {
       font-family: $inter;
       font-weight: 400;
       font-size: 12px;
@@ -224,7 +219,7 @@ header {
       margin: 10px 0px 0px 101px;
     }
 
-    >h3 {
+    > h3 {
       font-family: $inter;
       font-weight: 500;
       font-size: 16px;
@@ -240,17 +235,17 @@ footer {
   background-image: url(./Footer.png);
   background-size: cover;
 
-  >div {
+  > div {
     height: 655.13px;
     padding-bottom: 80.1px;
 
-    >div:nth-of-type(1) {
+    > div:nth-of-type(1) {
       display: flex;
       justify-content: space-between;
       padding: 94.31px 0px 64.82px 80px;
       border-bottom: 1px solid #fccbb6;
 
-      >p:nth-of-type(1) {
+      > p:nth-of-type(1) {
         font-family: $inter;
         font-weight: 500;
         font-size: 20px;
@@ -259,7 +254,7 @@ footer {
         text-align: left;
       }
 
-      >p:nth-of-type(2) {
+      > p:nth-of-type(2) {
         font-family: $inter;
         font-weight: 500;
         font-size: 16px;
@@ -270,16 +265,16 @@ footer {
       }
     }
 
-    >div:nth-of-type(2) {
+    > div:nth-of-type(2) {
       display: grid;
 
       grid-template-areas: "q1 q1 q2 q3 q4 q4 ";
 
-      >div {
+      > div {
         margin-right: 100.7px;
         margin-top: 39.99px;
 
-        >h4 {
+        > h4 {
           font-family: $inter;
           font-size: 20px;
           font-weight: 500;
@@ -288,7 +283,7 @@ footer {
           text-align: left;
         }
 
-        >p {
+        > p {
           font-family: $inter;
           font-size: 15px;
           font-weight: 500;
@@ -298,13 +293,13 @@ footer {
         }
       }
 
-      >div:nth-of-type(1) {
+      > div:nth-of-type(1) {
         width: 439.98px;
         height: 390px;
         padding: 0px 0px 0px 15px;
         grid-area: q1;
 
-        >p {
+        > p {
           font-family: $inter;
           font-size: 14px;
           font-weight: 400;
@@ -314,26 +309,26 @@ footer {
         }
       }
 
-      >div:nth-of-type(2) {
+      > div:nth-of-type(2) {
         width: 128.23px;
         height: 390px;
 
         grid-area: q2;
       }
 
-      >div:nth-of-type(3) {
+      > div:nth-of-type(3) {
         width: 119.59px;
         height: 390px;
         grid-area: q3;
       }
 
-      >div:nth-of-type(4) {
+      > div:nth-of-type(4) {
         width: 330px;
         height: 390px;
 
         grid-area: q4;
 
-        >p {
+        > p {
           font-family: $inter;
           font-size: 15px;
           font-weight: 400;
@@ -351,7 +346,7 @@ footer {
   justify-content: space-between;
   align-items: center;
 
-  >p {
+  > p {
     font-family: $inter;
     font-size: 15px;
     font-weight: 400;
@@ -380,36 +375,31 @@ footer {
   padding: 15px;
   box-sizing: border-box;
 
-  >div:nth-child(1) {
+  > div:nth-child(1) {
     width: 850px;
 
     height: 50px;
     display: flex;
     justify-content: space-between;
-
-    >div {
+    > div {
       width: 25%;
       height: 50px;
 
       display: flex;
-
-      >div:nth-child(1) {
+      > div:nth-child(1) {
         width: 50px;
         height: 50px;
         border: 1px solid #e7e6e6;
         border-radius: 12px;
       }
-
-      >div:nth-child(2)>p {
+      > div:nth-child(2) > p {
         margin: 2px 0px 3px 10px;
         font-family: $inter;
       }
-
-      >div:nth-child(2)>p:nth-child(1) {
+      > div:nth-child(2) > p:nth-child(1) {
         font-size: 14px;
       }
-
-      >div:nth-child(2)>p:nth-child(2) {
+      > div:nth-child(2) > p:nth-child(2) {
         font-size: 13px;
         color: #717171;
       }
@@ -421,16 +411,14 @@ footer {
 
     height: auto;
     margin-top: 60px;
-
-    >h1 {
+    > h1 {
       font-size: 29px;
       font-weight: 700;
       line-height: 45px;
       text-align: left;
       margin: 0%;
     }
-
-    >p {
+    > p {
       width: 844.72px;
       margin-top: 24px;
       font-size: 14px;
@@ -441,19 +429,19 @@ footer {
       margin-bottom: 24px;
     }
 
-    >h2 {
+    > h2 {
       font-size: 19px;
       font-weight: 500;
       line-height: 30px;
     }
 
-    >ul>li {
+    > ul > li {
       font-size: 15px;
       font-weight: 400;
       line-height: 28px;
     }
 
-    >ul {
+    > ul {
       margin-bottom: 59px;
     }
   }
@@ -463,8 +451,7 @@ footer {
     width: 850px;
 
     height: auto;
-
-    >h1 {
+    > h1 {
       font-size: 29px;
       font-weight: 700;
       line-height: 45px;
@@ -478,17 +465,15 @@ footer {
       height: auto;
       display: flex;
       margin-bottom: 60px;
-
-      >div {
+      > div {
         width: 50%;
         height: 100%;
       }
 
-      >div:nth-child(1) {
-        >div {
+      > div:nth-child(1) {
+        > div {
           display: flex;
-
-          >div {
+          > div {
             width: 24px;
             height: 24px;
 
@@ -496,7 +481,7 @@ footer {
             background-color: #eff7f1;
           }
 
-          >p {
+          > p {
             font-size: 14px;
             font-weight: 400;
             line-height: 28px;
@@ -505,12 +490,10 @@ footer {
           }
         }
       }
-
-      >div:nth-child(2) {
-        >div {
+      > div:nth-child(2) {
+        > div {
           display: flex;
-
-          >div {
+          > div {
             width: 24px;
             height: 24px;
 
@@ -518,7 +501,7 @@ footer {
             background-color: #ffe5e5;
           }
 
-          >p {
+          > p {
             font-size: 14px;
             font-weight: 400;
             line-height: 28px;
@@ -541,19 +524,16 @@ footer {
   box-shadow: 0px 10px 40px 0px #0000000d;
   padding: 31px;
   box-sizing: border-box;
-
-  >div:nth-child(1) {
+  > div:nth-child(1) {
     margin-bottom: 20px;
   }
-
-  >div:nth-child(2) {
+  > div:nth-child(2) {
     width: 298px;
     height: 143px;
 
     border-radius: 12px;
     border: 1px solid #dddddd;
-
-    >div {
+    > div {
       width: 100%;
       height: 49%;
       padding: 10px;
@@ -563,38 +543,37 @@ footer {
       border-left: none;
       border-right: none;
       border-top: none;
-
-      >div:nth-child(1) {
+      > div:nth-child(1) {
         width: 50px;
         height: 50px;
         background-color: #f5f5f5;
         border-radius: 12px;
       }
 
-      >div:nth-child(2)>p {
+      > div:nth-child(2) > p {
         margin: 0px 0px 1px 10px;
       }
 
-      >div:nth-child(2)>p:nth-child(1) {
+      > div:nth-child(2) > p:nth-child(1) {
         font-size: 15px;
         font-weight: 500;
         line-height: 24px;
       }
 
-      >div:nth-child(2)>p:nth-child(2) {
+      > div:nth-child(2) > p:nth-child(2) {
         font-size: 13px;
         font-weight: 400;
         line-height: 20px;
       }
     }
 
-    >div:nth-child(2) {
+    > div:nth-child(2) {
       border-bottom: none;
     }
   }
 
-  >div:nth-child(3) {
-    >h2 {
+  > div:nth-child(3) {
+    > h2 {
       font-size: 17px;
       font-weight: 500;
       line-height: 27px;
@@ -603,25 +582,23 @@ footer {
       margin-bottom: 25px;
     }
 
-    >div {
+    > div {
       margin-bottom: 27px;
       display: flex;
-
-      >div:nth-child(1)>span:nth-child(1) {
+      > div:nth-child(1) > span:nth-child(1) {
         font-family: Inter;
         font-size: 13px;
         font-weight: 400;
         line-height: 26px;
       }
 
-      >div:nth-child(1)>span:nth-child(2) {
+      > div:nth-child(1) > span:nth-child(2) {
         font-family: Inter;
         font-size: 13px;
         font-weight: 500;
         line-height: 26px;
       }
-
-      >div:nth-child(2)>div {
+      > div:nth-child(2) > div {
         width: 30px;
         height: 30px;
 
@@ -630,18 +607,17 @@ footer {
       }
     }
 
-    >div>div:nth-child(2) {
+    > div > div:nth-child(2) {
       display: flex;
       margin-left: 25px;
-
-      >span {
+      > span {
         margin: 0px 10px 0px 10px;
       }
     }
   }
 
-  >div:nth-child(4) {
-    >h2 {
+  > div:nth-child(4) {
+    > h2 {
       font-size: 17px;
       font-weight: 500;
       line-height: 27px;
@@ -649,22 +625,19 @@ footer {
       text-align: left;
       margin-bottom: 25px;
     }
-
-    >div:nth-of-type(1) {
+    > div:nth-of-type(1) {
       margin-bottom: 18px;
     }
 
-    >p {
+    > p {
       font-size: 14px;
       font-weight: 500;
       line-height: 24px;
       margin-bottom: 22px;
     }
-
-    >div {
+    > div {
       display: flex;
-
-      >span {
+      > span {
         font-size: 15px;
         font-weight: 400;
         line-height: 28px;
@@ -672,7 +645,7 @@ footer {
       }
     }
 
-    >div>div {
+    > div > div {
       width: 18px;
       height: 18px;
       border: 1px solid #05073c;
@@ -680,21 +653,20 @@ footer {
     }
   }
 
-  >div:nth-child(5) {
-    >div:nth-child(1) {
+  > div:nth-child(5) {
+    > div:nth-child(1) {
       display: flex;
       justify-content: space-between;
 
       font-size: 17px;
       font-weight: 500;
       line-height: 34px;
-
-      >p {
+      > p {
         margin: 3px;
       }
     }
 
-    >div:nth-child(2) {
+    > div:nth-child(2) {
       width: 298px;
       height: 56px;
       background-color: #eb662b;
@@ -718,46 +690,40 @@ footer {
 
   padding: 15px;
   box-sizing: border-box;
-
-  >div {
+  > div {
     width: 850px;
     height: auto;
 
-    >h1 {
+    > h1 {
       font-size: 30px;
       font-weight: 700;
       line-height: 45px;
       margin-bottom: 0px;
     }
-
-    >div {
-
-      >div:first-child,
+    > div {
+      > div:first-child,
       :last-child {
-        >div {
+        > div {
           width: 30px;
           height: 30px;
           background-color: #eb662b;
           border-radius: 30px;
         }
-
-        >p {
+        > p {
           margin-top: 4px;
         }
       }
 
-      >div {
+      > div {
         display: flex;
         margin-bottom: 45px;
-
-        >div {
+        > div {
           width: 18px;
           height: 18px;
           border-radius: 18px;
           border: 3px solid #eb662b;
         }
-
-        >p {
+        > p {
           margin-left: 15px;
           margin-top: 0px;
           font-family: Inter;
@@ -790,7 +756,7 @@ footer {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap");
 
 .bg {
   .container {
@@ -823,7 +789,7 @@ footer {
               font-weight: 600;
               // margin-left: 90px;
               font-size: 15.5px;
-              background: #EB662B1A;
+              background: #eb662b1a;
 
               line-height: 24px;
               color: #05073c;
@@ -834,7 +800,6 @@ footer {
                 margin: 0;
                 font-size: 14.65px;
                 line-height: 22.5px;
-
               }
             }
 
@@ -890,20 +855,19 @@ footer {
       }
 
       .baba_incon {
-        >.span-main {
+        > .span-main {
           width: 880px;
           // height: 40px;
           display: flex;
 
           // margin-top: 35px;
-          >.ma {
+          > .ma {
             width: 40px;
             height: 40px;
             margin-top: 30px;
           }
 
-          >.f {
-
+          > .f {
             // width: 64.31px;
             height: 30px;
             margin-top: 35px;
@@ -917,12 +881,12 @@ footer {
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
-            color: #05073C;
+            color: #05073c;
 
             font-family: "Inter", sans-serif;
           }
 
-          >.f1 {
+          > .f1 {
             // width: 64.31px;
             height: 30px;
             margin-top: 35px;
@@ -938,14 +902,13 @@ footer {
           }
         }
 
-        >.b-h4 {
-
+        > .b-h4 {
           height: 30px;
           margin-top: 15px;
 
           padding-top: 8px;
           margin-left: 95px;
-          color: #05073C;
+          color: #05073c;
 
           font-family: "Inter", sans-serif;
 
@@ -956,13 +919,12 @@ footer {
           text-align: left;
         }
 
-        >.sec-b3 {
-
+        > .sec-b3 {
           width: 831.47px;
           height: 48.13px;
           margin-top: 14px;
           // margin-left: 15px;
-          color: #05073C;
+          color: #05073c;
 
           font-family: "Inter", sans-serif;
           font-size: 15px;
@@ -972,8 +934,8 @@ footer {
           text-align: left;
         }
 
-        >.baba-img {
-          >img:nth-of-type(1) {
+        > .baba-img {
+          > img:nth-of-type(1) {
             // margin-left: 15px;
             margin-top: 24.12px;
             width: 130px;
@@ -982,7 +944,7 @@ footer {
             padding-bottom: 20px;
           }
 
-          >img:nth-of-type(2) {
+          > img:nth-of-type(2) {
             margin-left: 5px;
             margin-top: 24.12px;
             width: 130px;
@@ -991,7 +953,7 @@ footer {
             padding-bottom: 20px;
           }
 
-          >img:nth-of-type(3) {
+          > img:nth-of-type(3) {
             margin-left: 5px;
             margin-top: 24.12px;
             width: 130px;
@@ -1004,7 +966,7 @@ footer {
         .my-div {
           .first-span {
             padding-top: 20px;
-            >.s1 {
+            > .s1 {
               width: 48.72px;
               height: 28.13px;
               margin-top: 20px;
@@ -1017,7 +979,7 @@ footer {
               text-align: left;
             }
 
-            >.s2 {
+            > .s2 {
               width: 48.72px;
 
               height: 28.13px;
@@ -1029,14 +991,13 @@ footer {
               line-height: 28px;
               letter-spacing: 0em;
               text-align: left;
-
             }
           }
         }
       }
 
       button {
-        border: 1px solid #Eb662b;
+        border: 1px solid #eb662b;
         width: 222.14px;
         border-radius: 12px;
         height: 62px;
@@ -1046,5 +1007,4 @@ footer {
       }
     }
   }
-
 }
