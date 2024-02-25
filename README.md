@@ -1,7 +1,7 @@
 # 
 
 ## Introduction
-A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
+This project is a clone of the homepage of [Dmart](https://www.dmart.in/), a popular retail store. The goal of this project is to recreate the visual layout and design of the original website's homepage.
 
 ## Project Type
 Frontend 
@@ -34,9 +34,8 @@ User yeah
 ## Features
 List out the key features of your application.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Sticky Navbar : while scrolling the navbar sticks at the top of the view height.
+- Ham-burger icon
 
 ## design decisions or assumptions
 List your design desissions & assumptions
