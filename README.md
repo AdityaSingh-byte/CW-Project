@@ -14,7 +14,7 @@ Figma design: https://figma-best.netlify.app/
 
 1- Ritwik Dutta (ft30_254)
 
-2- Aditya Singh (ft30_)
+2- Aditya Singh (ft31_013)
 
 3- Baba Khalil (ft30_400)
 
@@ -66,7 +66,7 @@ User yeah
 │   │   └─ Anurag images
 
 <img width="141" alt="image" src="https://github.com/ritwikdutta2k/CW-Project-1/assets/157980081/af7b5865-9b12-43dc-8ced-5c7dbf5d646d">
-
+C:\Users\Hp\OneDrive\Pictures\Screenshots\Screenshot 2024-02-26 125727.png
 
 ## Features
 List out the key features of your application.
