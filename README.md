@@ -66,7 +66,7 @@ User yeah
 │   │   └─ Anurag images
 
 <img width="141" alt="image" src="https://github.com/ritwikdutta2k/CW-Project-1/assets/157980081/af7b5865-9b12-43dc-8ced-5c7dbf5d646d">
-![Screenshot 2024-02-26 125727](https://github.com/ritwikdutta2k/CW-Project-1/assets/109038047/223826f6-76ef-4e52-ad97-d78055194684)
+https://github.com/ritwikdutta2k/CW-Project-1/assets/109038047/223826f6-76ef-4e52-ad97-d78055194684
 
 
 ## Features
