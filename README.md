@@ -12,13 +12,13 @@ Figma design: https://figma-best.netlify.app/
 
 ## Team members:-
 
-1- Ritwik Dutta ft30_254
+1- Ritwik Dutta (ft30_254)
 
 2- Aditya Singh 
 
 3- Baba Khalil 
 
-4- Shivani Patil ft30_289
+4- Shivani Patil (ft30_289) 
 
 5- Anurag Yadav 
 
@@ -59,11 +59,14 @@ User yeah
 │   ├─Figma/
 │   │   └─ style.css
 │   │   ├─style.css.map
-│   │   ├─style.scss
-│   │   └─aditya images
+│   │   ├─style. scss
+│   │   └─Aditya images
 │   │   └─shivani images
 │   │   └─ baba images
-│   │   └─ anurag images
+│   │   └─ Anurag images
+
+<img width="141" alt="image" src="https://github.com/ritwikdutta2k/CW-Project-1/assets/157980081/af7b5865-9b12-43dc-8ced-5c7dbf5d646d">
+
 
 ## Features
 List out the key features of your application.
@@ -73,7 +76,7 @@ List out the key features of your application.
 - Pixel-perfect design
 
 ## design decisions or assumptions
-List your design desissions & assumptions
+List your design decisions & assumptions
 
 ## Installation & Getting started
 ## bootstrap :
@@ -86,15 +89,13 @@ List your design desissions & assumptions
 
                   OR
                   
-  Copy paste the link in head of HTML code:
+  Copy and paste the link in the head of the HTML code:
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     
-2) Clone the repo in your terminal, run the command :
-                   git clone git@github.com:ritwikdutta2k/CW-Project-1.git
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    
+2) Clone the repo in your terminal, and run the command :
+ git clone git@github.com:ritwikdutta2k/CW-Project-1.git
   
-## Credentials
-Provide user credentials for autheticated pages
-
 ## APIs Used
 -Bootstrap
 
@@ -112,9 +113,14 @@ List and provide a brief overview of the technologies used in the project.
 
 2- Notion doc for all references https://masai-school.notion.site/MSI-CW-Block-33-064ef60239a34a76ad8ca8ba4ed58eba
 
-3- Use Kanban to update issues and to-do list.
+3- Use Kanban to update issues and to-do lists.
 
 4- Check tasks after completing the task.
 
+## Most importantly
+# In case of fire
+# 1- git add.
+# 2. git commit -m "your message"
+# 3. git push origin main
 
 
