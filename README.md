@@ -10,6 +10,38 @@ Frontend
 D-mart app: https://dmart-new.netlify.app/
 Figma design : https://figma-best.netlify.app/
 
+#Team members :-
+1- Ritwik Dutta ft30_254
+
+2- Aditya Sungh 
+
+3- Baba Khalil 
+
+4- Shivani Patil
+
+5- Anurag Yadav 
+
+#This repo has two projects.
+
+1-Bootstrap project
+
+Objectives :-
+
+Create a look-a-like landing page from  https://www.dmart.in/
+
+Use boottstrap framework to achieve the design.
+
+Implement appropraite animations and effects.
+
+2- Figma project
+
+Objectives :-
+
+Create a pixel perfect design from a figma template.
+
+Implement styling using CSS pre-processor(SASS).
+
+
 ## Directory Structure
 User yeah 
 ├─CW-Project-1/
@@ -72,3 +104,16 @@ List and provide a brief overview of the technologies used in the project.
 - CSS
 - SCSS
 - Bootstrap
+
+
+##Important
+1- Our main branch is 'main'. But you have to push code to your own branch. So Push code accordingly.
+
+2- Notion doc for all refrences https://masai-school.notion.site/MSI-CW-Block-33-064ef60239a34a76ad8ca8ba4ed58eba
+
+3- Use Kanban to update issues and todo list.
+
+4- Check tasks after completing the task.
+
+
+
