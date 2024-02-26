@@ -10,14 +10,15 @@ Frontend
 D-mart app: https://dmart-new.netlify.app/
 Figma design : https://figma-best.netlify.app/
 
-#Team members :-
+**Team members :-
+
 1- Ritwik Dutta ft30_254
 
-2- Aditya Sungh 
+2- Aditya Singh 
 
 3- Baba Khalil 
 
-4- Shivani Patil
+4- Shivani Patil ft30_289
 
 5- Anurag Yadav 
 
@@ -25,11 +26,11 @@ Figma design : https://figma-best.netlify.app/
 
 1-Bootstrap project
 
-Objectives :-
+Objectives:-
 
 Create a look-a-like landing page from  https://www.dmart.in/
 
-Use boottstrap framework to achieve the design.
+Use bootstrap framework to achieve the design.
 
 Implement appropraite animations and effects.
 
