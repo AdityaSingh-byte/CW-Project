@@ -6,11 +6,11 @@ This project is a clone of the homepage of [Dmart](https://www.dmart.in/), a pop
 ## Project Type
 Frontend 
 
-## Deplolyed App
+## Deployed App
 D-mart app: https://dmart-new.netlify.app/
-Figma design : https://figma-best.netlify.app/
+Figma design: https://figma-best.netlify.app/
 
-**Team members :-
+## Team members:-
 
 1- Ritwik Dutta ft30_254
 
@@ -22,7 +22,7 @@ Figma design : https://figma-best.netlify.app/
 
 5- Anurag Yadav 
 
-#This repo has two projects.
+## This repo has two projects.
 
 1-Bootstrap project
 
@@ -30,15 +30,15 @@ Objectives:-
 
 Create a look-a-like landing page from  https://www.dmart.in/
 
-Use bootstrap framework to achieve the design.
+Use a bootstrap framework to achieve the design.
 
-Implement appropraite animations and effects.
+Implement appropriate animations and effects.
 
 2- Figma project
 
-Objectives :-
+Objectives:-
 
-Create a pixel perfect design from a figma template.
+Create a pixel-perfect design from a Figma template.
 
 Implement styling using CSS pre-processor(SASS).
 
@@ -68,15 +68,15 @@ User yeah
 ## Features
 List out the key features of your application.
 
-- Sticky Navbar : while scrolling the navbar sticks at the top of the view height.
+- Sticky Navbar: while scrolling the navbar sticks at the top of the view height.
 - Ham-burger icon
-- Pixel perfect design
+- Pixel-perfect design
 
 ## design decisions or assumptions
 List your design desissions & assumptions
 
 ## Installation & Getting started
-##bootstrap :
+## bootstrap :
 
 1)  Go to Terminal
    Enter the commands :
@@ -107,12 +107,12 @@ List and provide a brief overview of the technologies used in the project.
 - Bootstrap
 
 
-##Important
-1- Our main branch is 'main'. But you have to push code to your own branch. So Push code accordingly.
+## Important
+1- Our main branch is 'main'. But you have to push the code to your branch. So Push code accordingly.
 
-2- Notion doc for all refrences https://masai-school.notion.site/MSI-CW-Block-33-064ef60239a34a76ad8ca8ba4ed58eba
+2- Notion doc for all references https://masai-school.notion.site/MSI-CW-Block-33-064ef60239a34a76ad8ca8ba4ed58eba
 
-3- Use Kanban to update issues and todo list.
+3- Use Kanban to update issues and to-do list.
 
 4- Check tasks after completing the task.
 
