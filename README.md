@@ -10,13 +10,13 @@ Frontend
 D-mart app: https://dmart-new.netlify.app/
 Figma design: https://figma-best.netlify.app/
 
-## Team members:-
+## Team Members:-
 
 1- Ritwik Dutta (ft30_254)
 
-2- Aditya Singh 
+2- Aditya Singh (ft30_)
 
-3- Baba Khalil 
+3- Baba Khalil (ft30_400)
 
 4- Shivani Patil (ft30_289) 
 
