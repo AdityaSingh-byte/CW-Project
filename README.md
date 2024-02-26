@@ -1,7 +1,7 @@
 # 
 
 ## Introduction
-This project is a clone of the homepage of [Dmart](https://www.dmart.in/), a popular retail store. The goal of this project is to recreate the visual layout and design of the original website's homepage.
+This project is a clone of the homepage of [Dmart](https://www.dmart.in/), a popular retail store. This project aims to recreate the visual layout and design of the original website's homepage.
 
 ## Project Type
 Frontend 
@@ -44,28 +44,8 @@ Implement styling using CSS pre-processor(SASS).
 
 
 ## Directory Structure
-User yeah 
-├─CW-Project-1/
-│   ├─Bootstrap/
-│   │   ├─node_modules/
-│   │   │   ├─ @popperjs
-│   │   │   └─bootstrap
-│   │   |   ├─bootstrap-icons/
-│   │   │   ├─ .package-lock.json
-│   │   └─ images/
-│   │   ├─ index.html
-│   │   ├─  package-lock.json
-│   │   ├─ package.json
-│   ├─Figma/
-│   │   └─ style.css
-│   │   ├─style.css.map
-│   │   ├─style. scss
-│   │   └─Aditya images
-│   │   └─shivani images
-│   │   └─ baba images
-│   │   └─ Anurag images
 
-![readme](https://github.com/ritwikdutta2k/CW-Project-1/assets/157980081/1b5ca86c-3726-40bd-9b57-a4ebda865ca8)
+![readme](https://github.com/ritwikdutta2k/CW-Project-1/assets/157980081/2febe092-1355-42a8-b01d-08f9ea604dfa)
 
 
 ## Features
@@ -94,6 +74,7 @@ List your design decisions & assumptions
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
     
 2) Clone the repo in your terminal, and run the command :
+   
  git clone git@github.com:ritwikdutta2k/CW-Project-1.git
   
 ## APIs Used
@@ -106,7 +87,6 @@ List and provide a brief overview of the technologies used in the project.
 - CSS
 - SCSS
 - Bootstrap
-
 
 ## Important
 1- Our main branch is 'main'. But you have to push the code to your branch. So Push code accordingly.
@@ -122,5 +102,3 @@ List and provide a brief overview of the technologies used in the project.
 # 1- git add.
 # 2. git commit -m "your message"
 # 3. git push origin main
-
-
