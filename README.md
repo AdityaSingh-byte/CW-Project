@@ -65,8 +65,7 @@ User yeah
 │   │   └─ baba images
 │   │   └─ Anurag images
 
-https://github.com/ritwikdutta2k/CW-Project-1/assets/109038047/223826f6-76ef-4e52-ad97-d78055194684 
-
+![readme](https://github.com/ritwikdutta2k/CW-Project-1/assets/157980081/1b5ca86c-3726-40bd-9b57-a4ebda865ca8)
 
 
 ## Features
