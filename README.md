@@ -61,14 +61,12 @@ List your design decisions & assumptions
 ## Installation & Getting started
 ## bootstrap :
 
-1)  Go to Terminal
-   Enter the commands :
-         cd path/to/your/project
-         npm init -y
-         npm install bootstrap
-
-                  OR
-                  
+1)  Go to Terminal <br> 
+   Enter the commands : <br>
+   cd path/to/your/project <br>
+   npm init -y <br>
+   npm install bootstrap <br>
+               <br>  OR   <br> <br> 
   Copy and paste the link in the head of the HTML code:
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
